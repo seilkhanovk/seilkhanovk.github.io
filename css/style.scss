@@ -11,7 +11,7 @@
 01. General css
 02. Home page css
 -------------------------------------------------------------------------------------- */
-@import 'veriable.scss';
+@import 'variable.scss';
 
 /************************************/
 /***** 	   01. General css		 ****/
@@ -138,7 +138,7 @@ input:focus {
 /************************************/
 /***** 	   02. Home page css		 ****/
 /************************************/
-  
+
 .header{
     @include box-shadow(0px 0px 40px 0px rgba(36, 42, 76, 0.04));
     position: fixed;
@@ -181,7 +181,7 @@ input:focus {
             @include flex;
         }
         li{
-           margin-right: 30px; 
+           margin-right: 30px;
         }
         a{
             color: $text-blue;
@@ -236,13 +236,13 @@ input:focus {
     top: 0;
     left: 0;
     z-index: 99;
-    display: none; 
-} 
+    display: none;
+}
 .close-sidebar.active {
-    display: block; 
+    display: block;
 }
 .sidebar.active {
-    @include transform(translateX(0px)); 
+    @include transform(translateX(0px));
 }
 .sidebar {
     position: fixed;
@@ -495,7 +495,7 @@ input:focus {
     display: inline-block;
     position: relative;
 }
-  
+
   /* Escondendo o checkbox */
 .switch input {
     position: absolute;
@@ -525,7 +525,7 @@ input:focus {
     height: 18px;
     border-radius: 50%;
     transition: transform .3s ease, background .3s ease, box-shadow .06s ease;
-}  
+}
 /* Ação do click */
 .switch input:checked + .toggle {
     background-color: $third-primary;
@@ -651,7 +651,7 @@ input:focus {
             border-top-right-radius: 10px;
             h3{
                 font-size: 24px;
-                line-height: 26px;  
+                line-height: 26px;
                 color: $text-blue;
                 font-weight: bold;
             }
@@ -748,7 +748,7 @@ input:focus {
         h4{
             font-size: 20px;
             color: $text-blue;
-            font-weight: 600;   
+            font-weight: 600;
             margin-left: 20px;
         }
     }
