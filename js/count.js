@@ -26,7 +26,9 @@ const getRandomInt = (min, max) => {
   return Math.floor(Math.random() * (max - min) + min);
 }
 
-const updateValues = () => {
+const updateValues = (event) => {
+  event.preventDefault();
+
   const userInput = document.getElementById('numberInputBox').value;
   const NUM_REGEX = /^\d+$/;
 

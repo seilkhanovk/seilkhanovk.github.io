@@ -510,61 +510,18 @@ button:focus, input:focus, img:focus, .slick-slide:focus, textarea:focus, input:
   margin: 1.2vw 0;
 }
 
-.video__title p {
-  margin-left: 70px;
+/* adding the video of dashboard */
+
+.dashboard_video {
+  text-align: center;
+  margin-bottom: 20vh;
 }
 
-.video__title .align-center {
-  display: -webkit-flex;
-  display: -webkit-box;
-  display: -moz-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  -ms-align-items: center;
-  -o-align-items: center;
-  align-items: center;
-  height: 100%;
-}
-
-.video__image {
-  margin-top: 30px;
-  position: relative;
-}
-
-.video__image img {
-  width: 100%;
-  display: block;
-}
-
-.video .video-icon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: -webkit-flex;
-  display: -webkit-box;
-  display: -moz-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  -ms-align-items: center;
-  -o-align-items: center;
-  align-items: center;
-  -webkit-justify-content: center;
-  -moz-justify-content: center;
-  -ms-justify-content: center;
-  -o-justify-content: center;
-  justify-content: center;
-}
-
-.video .video-icon a {
-  width: 100px;
+.dashboard_video img {
+  margin: 0 auto;
+  width: 60vw;
+  height: auto;
+  
 }
 
 .collect__shape {
