@@ -469,12 +469,45 @@ button:focus, input:focus, img:focus, .slick-slide:focus, textarea:focus, input:
 }
 
 .sub-form {
-  margin-top:2vh;
+  margin-top: 2vh;
 }
 
 .sub-form input {
   height: 3.5vh;
-  margin:0;
+  margin: 0;
+}
+
+/* quick intro section - "Want to know what companies...? */
+
+.intro_section {
+  display: flex;
+  justify-content: center;
+  padding: 0 20vw;
+  margin: 10vw 0;
+}
+
+.intro_left {
+  width: 30vw;
+  padding-left: 1vw;
+}
+
+.intro_left h2 {
+  margin-bottom: 2.5vw;
+  font-weight: 700;
+}
+
+.intro_left img {
+  margin-right: 1.2vw;
+  width: 6%;
+  height: auto;
+}
+
+.intro_right {
+  width: 30vw;
+}
+
+.intro_right p {
+  margin: 1.2vw 0;
 }
 
 .video__title p {
