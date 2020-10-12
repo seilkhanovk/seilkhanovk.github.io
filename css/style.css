@@ -820,7 +820,7 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
   width: 45vw;
 }
 
-.safety_text h3{
+.safety_text h3 {
   font-weight: 700;
   margin-bottom: 2vh;
   margin-top: 3vh;
@@ -857,6 +857,52 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
   background-size: contain;
   padding-bottom: 90px;
   padding-top: 40px;
+}
+
+/* mission section */
+
+.mission_section {
+  display: flex;
+  justify-content: center;
+  background-color: #242A4C;
+  color: #FFE9CE;
+  width: 60vw;
+  margin: 15vh auto;
+  box-shadow: 0px 16px 24px rgba(36, 42, 76, 0.2), 0px 2px 6px rgba(36, 42, 76, 0.12), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 12px;
+}
+
+.mission_text {
+  padding: 8vh 0 5vh 3vw;
+}
+
+.mission_text h2 {
+  font-weight: 900;
+  font-size: 2vw;
+  margin-bottom: 2vh;
+}
+
+.mission_text p {
+  font-weight: 400;
+  margin-bottom: 1.5vw;
+}
+
+.mission_img {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.mission_img img {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  right: -1px;
+  bottom: -1px;
+  width: 100%;
+  height: auto;
 }
 
 .grid-box {
