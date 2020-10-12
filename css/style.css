@@ -420,7 +420,7 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
 }
 
 .new_banner_img img {
-  width: 43vw;
+  width: 41vw;
   height: auto;
 }
 
@@ -523,6 +523,51 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
   width: 60vw;
   height: auto;
 }
+
+/* adding the description section */
+
+.description_section {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20vh 0 20vh 0;
+  padding: 4vh 7vw;
+  background-color: #fffaf5d2;
+}
+
+.description_column {
+  text-align: center;
+  margin: 5vh 3vw;
+  flex-grow: 1;
+}
+
+.convenient_image {
+  padding-top: 1vh;
+}
+
+.description_column h2 {
+  text-decoration: underline;
+  text-decoration-color: #2EBFA5;
+  margin-bottom: 2vh;
+}
+
+.description_text p {
+  color: #959595;
+  margin-bottom: 1vh;
+  text-align: center;
+}
+
+.description_img {
+  background-image: url("../images/animation.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 5vh 5vw;
+}
+
+/* .description_img img {
+  width: 20%;
+  height: auto;
+} */
 
 /* steps section start */
 
@@ -806,13 +851,13 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
   text-align: center;
   font-size: 2vw;
   font-weight: 900;
-  margin: 15vh 0 .5vh;
+  margin: 15vh 0 .5vh 0;
 }
 
 .safety_section {
   display: flex;
   margin: 0 10vw;
-  padding: 5vh 0 10vh 0;
+  padding: 2vh 0 10vh 0;
 }
 
 .safety_text {
