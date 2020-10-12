@@ -533,6 +533,10 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
   margin-bottom: 10vh;
 }
 
+#step_img {
+  padding-bottom: 2.5vh;
+}
+
 .collect__shape {
   background-image: url(../images/shape-1.png);
   background-repeat: no-repeat;
@@ -643,7 +647,7 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
   margin-bottom: 20px;
 }
 
-.understand__image-item {
+/* .understand__image-item {
   -webkit-box-shadow: 2.079px 9.781px 52px 0px rgba(36, 42, 76, 0.06);
   -moz-box-shadow: 2.079px 9.781px 52px 0px rgba(36, 42, 76, 0.06);
   -ms-box-shadow: 2.079px 9.781px 52px 0px rgba(36, 42, 76, 0.06);
@@ -654,7 +658,7 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   border-radius: 10px;
-}
+} */
 
 .switch {
   width: 40px;
