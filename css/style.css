@@ -133,13 +133,14 @@ button:focus, input:focus, img:focus, .slick-slide:focus, textarea:focus, input:
 }
 
 .common-content h2 {
-  font-size: 36px;
+  font-size: 2vw;
+  font-weight: 900;
   line-height: 48px;
 }
 
 .common-content p {
   color: #242a4c;
-  font-weight: 700;
+  font-weight: 600;
   ;
   font-size: 18px;
   line-height: 28px;
@@ -521,7 +522,15 @@ button:focus, input:focus, img:focus, .slick-slide:focus, textarea:focus, input:
   margin: 0 auto;
   width: 60vw;
   height: auto;
-  
+}
+
+/* steps section start */
+
+.steps_title {
+  font-size: 2vw;
+  font-weight: 900;
+  margin-left: 17vw;
+  margin-bottom: 10vh;
 }
 
 .collect__shape {
@@ -536,11 +545,7 @@ button:focus, input:focus, img:focus, .slick-slide:focus, textarea:focus, input:
   -moz-box-shadow: 1.247px 5.869px 50px 0px rgba(36, 42, 76, 0.06);
   -ms-box-shadow: 1.247px 5.869px 50px 0px rgba(36, 42, 76, 0.06);
   -o-box-shadow: 1.247px 5.869px 50px 0px rgba(36, 42, 76, 0.06);
-  box-shadow: 1.247px 5.869px 50px 0px rgba(36, 42, 76, 0.06);
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
   border-radius: 10px;
   padding: 40px 30px 20px;
   margin-left: 7px;
@@ -789,6 +794,56 @@ button:focus, input:focus, img:focus, .slick-slide:focus, textarea:focus, input:
   font-weight: 500;
   color: #0f111f;
   margin-bottom: 20px;
+}
+
+/* safety section */
+
+.safety_title {
+  text-align: center;
+  font-size: 2vw;
+  font-weight: 900;
+  margin: 15vh 0 .5vh;
+}
+
+.safety_section {
+  display: flex;
+  margin: 0 10vw;
+  padding: 5vh 0 10vh 0;
+}
+
+.safety_text {
+  padding: 6vh 3vw;
+  width: 45vw;
+}
+
+.safety_text h3{
+  font-weight: 700;
+  margin-bottom: 2vh;
+  margin-top: 3vh;
+}
+
+.safety_text p {
+  font-weight: 600;
+  margin-bottom: 2vh;
+}
+
+.safety_text a {
+  font-weight: 700;
+  color: #2EBFA5;
+  text-transform: uppercase;
+  font-size: 0.9vw;
+}
+
+.safety_image {
+  text-align: center;
+  width: 45vw;
+  position: relative;
+}
+
+.safety-image img {
+  width: 100%;
+  height: auto;
+  position: absolute;
 }
 
 .zigzag__shape {
