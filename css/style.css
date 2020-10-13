@@ -20,7 +20,7 @@
 /************************************/
 
 body {
-  font-size: 1vw;
+  font-size: 1rem;
   color: #242a4c;
   margin: 0px;
   padding: 0px;
@@ -84,7 +84,7 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
   background: #2EBFA5;
   border: 2px solid #2EBFA5;
   color: #fff;
-  font-size: .8vw;
+  font-size: .8rem;
   font-weight: 900;
   font-family: "Nunito", sans-serif;
   text-transform: uppercase;
@@ -99,8 +99,8 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
   -o-transition: all 500ms;
   transition: all 500ms;
   display: inline-block;
-  height: 5vh;
-  line-height: 5vh;
+  height: 2.5rem;
+  line-height: 2.5rem;
   text-align: center;
   padding: 0px 1vw;
   letter-spacing: 1.5px;
@@ -133,7 +133,7 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
 }
 
 .common-content h2 {
-  font-size: 2vw;
+  font-size: 2rem;
   font-weight: 900;
   line-height: 48px;
 }
@@ -230,7 +230,7 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
 }
 
 .header__menu-icon .menu-icon {
-  font-size: 1.1vw;
+  font-size: 1.1rem;
   color: #0f111f;
   cursor: pointer;
 }
@@ -250,7 +250,7 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
 
 .header__menu a {
   color: #242A4C;
-  font-size: 0.9vw;
+  font-size: 1rem;
   text-transform: capitalize;
   font-weight: 700;
   display: block;
@@ -402,7 +402,7 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
 
 .new_banner p {
   font-family: "Nunito", sans-serif;
-  font-size: 1vw;
+  font-size: 1.2rem;
   color: #242A4C;
   font-weight: 600;
   width: 27vw;
@@ -450,11 +450,11 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
 }
 
 #numbers p {
-  font-size: 0.8vw;
+  font-size: 1rem;
 }
 
 #numbers h3 {
-  font-size: 2.5vw;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 
@@ -572,7 +572,7 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
 /* steps section start */
 
 .steps_title {
-  font-size: 2vw;
+  font-size: 2rem;
   font-weight: 900;
   margin-left: 17vw;
   margin-bottom: 10vh;
@@ -849,7 +849,7 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
 
 .safety_title {
   text-align: center;
-  font-size: 2vw;
+  font-size: 2.5rem;
   font-weight: 900;
   margin: 15vh 0 .5vh 0;
 }
@@ -880,7 +880,7 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
   font-weight: 700;
   color: #2EBFA5;
   text-transform: uppercase;
-  font-size: 0.9vw;
+  font-size: 1rem;
 }
 
 .safety_image {
@@ -904,6 +904,98 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
   padding-top: 40px;
 }
 
+/* pricing section */
+
+.pricing_text {
+  text-align: center;
+  padding: 3em 0;
+}
+
+.pricing_text h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 1em;
+}
+
+.pricing_section {
+  background: url(../images/pricing_bg.png) no-repeat top;
+  background-size: 100% 35em;
+  margin: 10em 0;
+}
+
+.plan_containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.plan_container_left span, .plan_container_right span {
+  font-size: 1rem;
+  position: relative;
+  bottom: .5em;
+}
+
+.plan_container_left h3, .plan_container_right h3 {
+  font-weight: 900;
+}
+
+.plan_container_left {
+  background-color: #fff;
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 25px 0 0 25px;
+  padding: 4vh 2vw;
+  width: 18em;
+}
+
+.plan_container_left ul  {
+  margin: 4vh 0 3vh 0;
+}
+
+.plan_container_right ul {
+  margin: 4vh 0 3vh 0;
+}
+
+.plan_container_left li, .plan_container_right li {
+  margin-bottom: 1vh;
+}
+
+.plan_container_left p {
+  margin-top: 2vh;
+  color: #959595;
+  font-size: .8rem;
+}
+
+.plan_container_right {
+  background-image: linear-gradient(top, #242A4C, #242A4C 75%, #2EBFA5 75%, #2EBFA5 100%);
+  background-image: -webkit-linear-gradient(top, #242A4C,#242A4C 75%, #2EBFA5 75%, #2EBFA5 100%);
+  box-shadow: 0px 16px 24px rgba(26, 11, 92, 0.2), 0px 2px 6px rgba(26, 11, 92, 0.12), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 25px;
+  color: #f7d6b7;
+  padding: 6vh 3vw;
+  width: 28em;
+}
+
+.premium_text {
+  color: #fff;
+  text-align: center;
+}
+
+.premium_text h4 {
+  padding-top: 5vh;
+}
+
+.premium_text h4 {
+  font-size: .9rem;
+  margin-bottom: 1vh;
+}
+
+.premium_text p {
+  font-size: .8rem;
+}
+
+
 /* mission section */
 
 .mission_section {
@@ -912,7 +1004,7 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
   background-color: #242A4C;
   color: #FFE9CE;
   width: 60vw;
-  margin: 15vh auto;
+  margin: 30vh auto;
   box-shadow: 0px 16px 24px rgba(36, 42, 76, 0.2), 0px 2px 6px rgba(36, 42, 76, 0.12), 0px 0px 1px rgba(0, 0, 0, 0.04);
   border-radius: 12px;
 }
@@ -973,7 +1065,7 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
   height: 100%;
 }
 
-.pricing {
+/* .pricing {
   margin-top: 50px;
 }
 
@@ -1126,7 +1218,7 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
   -ms-justify-content: flex-end;
   -o-justify-content: flex-end;
   justify-content: flex-end;
-}
+} */
 
 .user-say__title h2 {
   text-align: center;
