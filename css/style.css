@@ -438,7 +438,7 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
   box-shadow: 0px 10px 20px rgba(36, 42, 76, 0.18), 0px 2px 6px rgba(36, 42, 76, 0.12), 0px 0px 1px rgba(0, 0, 0, 0.04);
 }
 
-#numbers {
+.numbers {
   display: flex;
   flex-direction: column;
 }
@@ -449,11 +449,11 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
   padding: 4vh 5vw;
 }
 
-#numbers p {
+.numbers p {
   font-size: 1rem;
 }
 
-#numbers h3 {
+.numbers h3 {
   font-size: 2.5rem;
   font-weight: 700;
 }
@@ -578,7 +578,7 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
   margin-bottom: 10vh;
 }
 
-#step_img {
+.step_img {
   padding-bottom: 2.5vh;
 }
 

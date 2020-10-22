@@ -1,307 +1,698 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="title" content="Rita" />
+    <meta
+      name="description"
+      content="Rita Personal Data - Getting more out of personal data"
+    />
+    <meta name="author" content="Rita Team" />
+    <meta
+      name="keywords"
+      content="Rita, Personal, Data, Privacy, Social Networks, Facebook, Instagram, Google, Social"
+    />
+    <link rel="apple-touch-icon" href="images/logo_final.svg" />
+    <link rel="icon" type="ico" sizes="16x16" href="images/logo_final.svg" />
+    <title>Rita - Home</title>
+    <!-- Bootstrap css -->
+    <link href="css/bootstrap-grid.min.css" media="screen" rel="stylesheet" />
+    <!-- Main custom css -->
+    <link href="css/style.css" media="screen" rel="stylesheet" />
+    <!-- CounterUp.JS -->
+    <script src="./js/count.js" type="module"></script>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-WPFL872");
+    </script>
+    <!-- End Google Tag Manager -->
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="title" content="Rita" />
-  <meta name="description" content="Rita Personal Data - Getting more out of personal data" />
-  <meta name="author" content="Rita Team" />
-  <meta name="keywords" content="Rita, Personal, Data, Privacy, Social Networks, Facebook, Instagram, Google, Social" />
-  <link rel="apple-touch-icon" href="images/logo_final.svg" />
-  <link rel="icon" type="ico" sizes="16x16" href="images/logo_final.svg" />
-  <title>Rita</title>
-  <!-- Bootstrap css -->
-  <link href="css/bootstrap-grid.min.css" media="screen" rel="stylesheet" />
-  <!-- Main custom css -->
-  <link href="css/style.css" media="screen" rel="stylesheet" />
-  <!-- CounterUp.JS -->
-  <script src="./js/count.js" type="module"></script>
-  <!-- Google Tag Manager -->
-  <script>
-    (function (w, d, s, l, i) {
-      w[l] = w[l] || [];
-      w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-      var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s),
-        dl = l != "dataLayer" ? "&l=" + l : "";
-      j.async = true;
-      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-      f.parentNode.insertBefore(j, f);
-    })(window, document, "script", "dataLayer", "GTM-WPFL872");
-  </script>
-  <!-- End Google Tag Manager -->
-</head>
-
-<body>
-  <!-- Wrapper start -->
-  <div class="wrapper">
-    <!-- Header start -->
-    <header>
-      <div class="header">
-        <div class="container">
-          <div class="header__inner">
-            <div class="header__logo">
-              <a href="https://ritapersonaldata.com/">
-                <img src="images/logo_final.svg" alt="rita logo" />
-              </a>
-            </div>
-            <div class="header__menu">
-              <ul>
-                <li><a href="#" class="active">Overview</a></li>
-                <li><a href="#mission">Our Mission</a></li>
-                <li><a href="#safety">Safety</a></li>
-                <li><a href="#pricing">Pricing</a></li>
-                <li><a href="#testimonial">Testimonials</a></li>
-                <li><a href="/blog">Blog</a></li>
-              </ul>
-            </div>
-            <div class="header__menu-icon">
-              <div class="menu-icon">
-                <!-- Feather icons sidebar-->
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                  class="feather feather-sidebar">
-                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-                  <line x1="9" y1="3" x2="9" y2="21"></line>
-                </svg>
+  <body>
+    <!-- Wrapper start -->
+    <div class="wrapper">
+      <!-- Header start -->
+      <header>
+        <div class="header">
+          <div class="container">
+            <div class="header__inner">
+              <div class="header__logo">
+                <a href="https://ritapersonaldata.com/">
+                  <img src="images/logo_final.svg" alt="rita logo" />
+                </a>
               </div>
-            </div>
-            <div class="header__button">
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9Xvop9vgKopGrPbrlYyMxQ2no6oXI2U4Hu5J1ZDnpr5nmQA/viewform"
-                class="button" target="_blank">
-                Sign Up
-              </a>
-              <a href="https://app.ritapersonaldata.com/signin/" class="button button--outline">
-                Log In
-              </a>
+              <div class="header__menu">
+                <ul>
+                  <li><a href="#" class="active">Overview</a></li>
+                  <li><a href="#mission">Our Mission</a></li>
+                  <li><a href="#safety">Safety</a></li>
+                  <li><a href="#pricing">Pricing</a></li>
+                  <li><a href="#testimonial">Testimonials</a></li>
+                  <li><a href="/blog">Blog</a></li>
+                </ul>
+              </div>
+              <div class="header__menu-icon">
+                <div class="menu-icon">
+                  <!-- Feather icons sidebar-->
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewbox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-sidebar"
+                  >
+                    <rect
+                      x="3"
+                      y="3"
+                      width="18"
+                      height="18"
+                      rx="2"
+                      ry="2"
+                    ></rect>
+                    <line x1="9" y1="3" x2="9" y2="21"></line>
+                  </svg>
+                </div>
+              </div>
+              <div class="header__button">
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSf9Xvop9vgKopGrPbrlYyMxQ2no6oXI2U4Hu5J1ZDnpr5nmQA/viewform"
+                  class="button"
+                  target="_blank"
+                >
+                  Sign Up
+                </a>
+                <a
+                  href="https://app.ritapersonaldata.com/signin/"
+                  class="button button--outline"
+                >
+                  Log In
+                </a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </header>
-    <!-- Header end -->
+      </header>
+      <!-- Header end -->
 
-    <!-- Sidebar start -->
-    <div class="sidebar">
-      <div class="sidebar__inner">
-        <div class="sidebar__menu">
-          <ul>
-            <li><a href="#" class="active">Overview</a></li>
-            <li><a href="#mission">Our Mission</a></li>
-            <li><a href="#safety">Safety</a></li>
-            <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#testimonial">Testimonials</a></li>
-            <li><a href="/blog">Blog</a></li>
-          </ul>
-        </div>
-        <div class="sidebar__button">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9Xvop9vgKopGrPbrlYyMxQ2no6oXI2U4Hu5J1ZDnpr5nmQA/viewform"
-            class="button button--outline" target="_blank">
-            Sign Up
-          </a>
-          <a href="https://app.ritapersonaldata.com/signin/" class="button">
-            Login
-          </a>
+      <!-- Sidebar start -->
+      <div class="sidebar">
+        <div class="sidebar__inner">
+          <div class="sidebar__menu">
+            <ul>
+              <li><a href="#" class="active">Overview</a></li>
+              <li><a href="#mission">Our Mission</a></li>
+              <li><a href="#safety">Safety</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#testimonial">Testimonials</a></li>
+              <li><a href="/blog">Blog</a></li>
+            </ul>
+          </div>
+          <div class="sidebar__button">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSf9Xvop9vgKopGrPbrlYyMxQ2no6oXI2U4Hu5J1ZDnpr5nmQA/viewform"
+              class="button button--outline"
+              target="_blank"
+            >
+              Sign Up
+            </a>
+            <a href="https://app.ritapersonaldata.com/signin/" class="button">
+              Login
+            </a>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="close-sidebar"></div>
-    <!-- Sidebar end -->
+      <div class="close-sidebar"></div>
+      <!-- Sidebar end -->
 
-    <!-- new hero section-->
-    <section>
-      <div class="new_banner">
-        <div class="new_banner_text">
-          <h1>
-            Your data, <br />
-            in your hands.
-          </h1>
+      <!-- new hero section-->
+      <section>
+        <div class="new_banner">
+          <div class="new_banner_text">
+            <h1>
+              Your data, <br />
+              in your hands.
+            </h1>
+            <p>
+              Rita is a tool that helps you understand and control your online
+              data and privacy, safely and immediately. Whenever you want. For
+              free.
+            </p>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSf9Xvop9vgKopGrPbrlYyMxQ2no6oXI2U4Hu5J1ZDnpr5nmQA/viewform"
+              class="button"
+              target="_blank"
+            >
+              Sign Up
+            </a>
+          </div>
+
+          <div class="new_banner_img">
+            <img src="images/hero_img_new1.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- the form section -->
+      <section>
+        <div class="form_container">
+          <h2>Average user's data in numbers</h2>
+          <div class="form_numbers">
+            <div class="numbers">
+              <p>Earned</p>
+              <h3>€<span id="number0">958</span></h3>
+              <p>by advertisers</p>
+            </div>
+
+            <div class="numbers">
+              <p>Been tracked by</p>
+              <h3><span id="number1">2778</span></h3>
+              <p>companies</p>
+            </div>
+
+            <div class="numbers">
+              <p>Clicked on</p>
+              <h3><span id="number2">5684</span></h3>
+              <p>ads</p>
+            </div>
+          </div>
+
           <p>
-            Rita is a tool that helps you understand and control your online
-            data and privacy, safely and immediately. Whenever you want. For
-            free.
+            Enter the number of hours you spend online daily to get a
+            personalized report.
           </p>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9Xvop9vgKopGrPbrlYyMxQ2no6oXI2U4Hu5J1ZDnpr5nmQA/viewform"
-            class="button" target="_blank">
-            Sign Up
-          </a>
+
+          <div class="sub-form">
+            <form>
+              <input type="number" id="numberInputBox" min="0" max="24" />
+              <button type="submit" class="button_form" id="numberInputSubmit">
+                check
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Rita intro -->
+      <section>
+        <div class="intro_section">
+          <div class="intro_left">
+            <h2>Want to know what <br />companies know about you?</h2>
+            <div>
+              <img src="images/facebook.svg" alt="facebok logo" /><img
+                src="images/google.svg"
+                alt="google logo"
+              /><img src="images/instagram.svg" alt="instagram logo" /><img
+                src="images/spotify.svg"
+                alt="spotify logo"
+              />
+            </div>
+          </div>
+          <div class="intro_right">
+            <h3>Let Rita guide you</h3>
+            <p>
+              You don’t need to be a data engineer to understand and control
+              your data. We make it easy for you with a couple of clicks.
+            </p>
+            <a href="#steps" class="button"> Learn how </a>
+          </div>
+        </div>
+      </section>
+      <!--Rita intro end  -->
+
+      <!-- Dashboard video -->
+      <div class="dashboard_video">
+        <img src="images/rita_dash2.gif" alt="video of rita dashboard" />
+      </div>
+      <!-- Dashboard video end  -->
+
+      <!-- Rita description section -->
+
+      <div class="description_section">
+        <div class="description_column">
+          <div class="description_text">
+            <h2>easy</h2>
+            <p>
+              With our tutorials and intuitive dashboard you can collect and
+              visualize your data in minutes.
+            </p>
+          </div>
+          <div class="description_img">
+            <img src="images/easy.svg" alt="clock" />
+          </div>
         </div>
 
-        <div class="new_banner_img">
-          <img src="images/hero_img_new1.png" alt="" />
+        <div class="description_column">
+          <div class="description_text">
+            <h2>convenient</h2>
+            <p>
+              Everything is done in the browser; no need to download and
+              install.
+            </p>
+          </div>
+          <div class="description_img">
+            <img src="images/convenient.svg" alt="" class="convenient_image" />
+          </div>
+        </div>
+
+        <div class="description_column">
+          <div class="description_text">
+            <h2>safe</h2>
+            <p>
+              We never have access to your data since it’s stored on your
+              personal device.
+            </p>
+          </div>
+          <div class="description_img">
+            <img src="images/safe.svg" alt="clock" />
+          </div>
         </div>
       </div>
-    </section>
 
-    <!-- the form section -->
-    <section>
-      <div class="form_container">
-        <h2>Average user's data in numbers</h2>
-        <div class="form_numbers">
-          <div id="numbers">
-            <p>Earned</p>
-            <h3>€<span id="number0">958</span></h3>
-            <p>by advertisers</p>
-          </div>
+      <!-- end description section -->
 
-          <div id="numbers">
-            <p>Been tracked by</p>
-            <h3><span id="number1">2778</span></h3>
-            <p>companies</p>
-          </div>
-
-          <div id="numbers">
-            <p>Clicked on</p>
-            <h3><span id="number2">5684</span></h3>
-            <p>ads</p>
+      <h2 class="steps_title">How to take control of your data?</h2>
+      <!-- Collect start -->
+      <section>
+        <div class="collect">
+          <div class="collect__shape">
+            <div class="container">
+              <div class="collect__inner">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="collect__content">
+                      <div class="row no-gutters">
+                        <div class="col-md-6">
+                          <div class="collect__box">
+                            <div class="collect__box-inner">
+                              <p>Facebook</p>
+                              <img src="images/facebook.svg" alt="" />
+                              <a href="#">Get My Data</a>
+                            </div>
+                          </div>
+                          <div class="collect__box">
+                            <div class="collect__box-inner">
+                              <p>Spotify</p>
+                              <img src="images/spotify.svg" alt="" />
+                              <a href="#">Get My Data</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="collect__box">
+                            <div class="collect__box-inner">
+                              <p>Google</p>
+                              <img src="images/google.svg" alt="" />
+                              <a href="#">Get My Data</a>
+                            </div>
+                          </div>
+                          <div class="collect__box">
+                            <div class="collect__box-inner">
+                              <p>Instagram</p>
+                              <img src="images/Instagram.svg" alt="" />
+                              <a href="#">Get My Data</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="collect__heading">
+                      <div class="common-content">
+                        <img src="images/step_1.svg" alt="" class="step_img" />
+                        <h2>Collect.</h2>
+                        <p>
+                          Sign up and within a few clicks, understand your data
+                          from your favorite websites. With the help of our
+                          guide you’ll have all the information about you stored
+                          securely.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+      </section>
+      <!-- Collect end -->
 
-        <p>
-          Enter the number of hours you spend online daily to get a
-          personalized report.
-        </p>
-
-        <div class="sub-form">
-          <form>
-            <input type="number" id="numberInputBox" min="0" max="24" />
-            <button type="submit" class="button_form" id="numberInputSubmit">
-              check
-            </button>
-          </form>
-        </div>
-      </div>
-    </section>
-
-    <!-- Rita intro -->
-    <section>
-      <div class="intro_section">
-        <div class="intro_left">
-          <h2>Want to know what <br />companies know about you?</h2>
-          <div>
-            <img src="images/facebook.svg" alt="facebok logo" /><img src="images/google.svg" alt="google logo" /><img
-              src="images/instagram.svg" alt="instagram logo" /><img src="images/spotify.svg" alt="spotify logo" />
+      <!-- Understand start -->
+      <section>
+        <div class="understand">
+          <div class="understand__shape">
+            <div class="container">
+              <div class="understand__inner">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="understand__heading">
+                      <div class="common-content">
+                        <img src="images/step_2.svg" alt="" class="step_img" />
+                        <h2>Visualize.</h2>
+                        <p>
+                          Let our tool analyze your data and visualize it so you
+                          can understand what companies know about you and do
+                          with your data. Get an immediate overview of your
+                          digital footprint.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="understand__image">
+                      <div class="understand__image-item">
+                        <img
+                          src="images/dashboard_img.png"
+                          alt="image of dashboard showing"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="intro_right">
-          <h3>Let Rita guide you</h3>
+      </section>
+      <!-- Understand end -->
+
+      <!-- Choose start -->
+      <section>
+        <div class="choose">
+          <div class="choose__shape">
+            <div class="container">
+              <div class="choose__inner">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="choose__boxes">
+                      <div class="choose__box">
+                        <div class="choose__box-inner">
+                          <p>Zalando.com</p>
+                          <label class="switch">
+                            <input type="checkbox" checked />
+                            <span class="toggle"></span>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="choose__box">
+                        <div class="choose__box-inner">
+                          <p>Nike.com</p>
+                          <label class="switch">
+                            <input type="checkbox" checked />
+                            <span class="toggle"></span>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="choose__box">
+                        <div class="choose__box-inner">
+                          <p>Amazon.com</p>
+                          <label class="switch">
+                            <input type="checkbox" checked />
+                            <span class="toggle"></span>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="choose__box">
+                        <div class="choose__box-inner">
+                          <p>Airbnb.com</p>
+                          <label class="switch">
+                            <input type="checkbox" checked />
+                            <span class="toggle"></span>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="choose__box">
+                        <div class="choose__box-inner">
+                          <p>Blinkist.com</p>
+                          <label class="switch">
+                            <input type="checkbox" checked />
+                            <span class="toggle"></span>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="choose__box">
+                        <div class="choose__box-inner">
+                          <p>Adobe.com</p>
+                          <label class="switch">
+                            <input type="checkbox" checked />
+                            <span class="toggle"></span>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="choose__box">
+                        <div class="choose__box-inner">
+                          <p>CA.com</p>
+                          <label class="switch">
+                            <input type="checkbox" />
+                            <span class="toggle"></span>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="choose__box">
+                        <div class="choose__box-inner">
+                          <p>Verisk.com</p>
+                          <label class="switch">
+                            <input type="checkbox" />
+                            <span class="toggle"></span>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="choose__box">
+                        <div class="choose__box-inner">
+                          <p>Acxiom.com</p>
+                          <label class="switch">
+                            <input type="checkbox" />
+                            <span class="toggle"></span>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="choose__box">
+                        <div class="choose__box-inner">
+                          <p>Epsilon.com</p>
+                          <label class="switch">
+                            <input type="checkbox" />
+                            <span class="toggle"></span>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="choose__box">
+                        <div class="choose__box-inner">
+                          <p>Experian.com</p>
+                          <label class="switch">
+                            <input type="checkbox" />
+                            <span class="toggle"></span>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="choose__box">
+                        <div class="choose__box-inner">
+                          <p>PI.com</p>
+                          <label class="switch">
+                            <input type="checkbox" />
+                            <span class="toggle"></span>
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="choose__heading">
+                      <div class="common-content">
+                        <img src="images/step_3.svg" alt="" id="step_img" />
+                        <h2>Choose.</h2>
+                        <p>
+                          Choose which information companies can and can’t
+                          access. Rita’s data management tools allow you to be
+                          in full control within seconds.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Choose end -->
+
+      <!-- safety section begin -->
+
+      <h2 class="safety_title">Is my data safe with you?</h2>
+      <div class="safety_section">
+        <div class="safety_text">
+          <h3>We can't and don't want to see your data.</h3>
           <p>
-            You don’t need to be a data engineer to understand and control
-            your data. We make it easy for you with a couple of clicks.
+            You file is encrypted and stored on your device, so we can’t access
+            it. You are the only one who has access and can choose who can and
+            can’t look at it.
           </p>
-          <a href="#steps" class="button"> Learn how </a>
-        </div>
-      </div>
-    </section>
-    <!--Rita intro end  -->
+          <a href="#" class="link"> Learn More </a>
 
-    <!-- Dashboard video -->
-    <div class="dashboard_video">
-      <img src="images/rita_dash2.gif" alt="video of rita dashboard" />
-    </div>
-    <!-- Dashboard video end  -->
-
-    <!-- Rita description section -->
-
-    <div class="description_section">
-      <div class="description_column">
-        <div class="description_text">
-          <h2>easy</h2>
-          <p>With our tutorials and intuitive dashboard you can collect and visualize your data in minutes.
+          <h3>Still not sure?</h3>
+          <p>
+            If you change your mind you can delete your file from Rita dashboard
+            any time. Forever.
           </p>
+          <a href="#" class="link"> Learn More </a>
         </div>
-        <div class="description_img">
-          <img src="images/easy.svg" alt="clock">
+        <div class="safety_image">
+          <img src="images/safety.png" alt="a girl holding a lock" />
         </div>
       </div>
 
-
-      <div class="description_column">
-        <div class="description_text">
-          <h2>convenient</h2>
-          <p>Everything is done in the browser; no need to download and install.
-          </p>
+      <!-- pricing section begin -->
+      <div class="pricing_section">
+        <div class="pricing_text">
+          <h2>How does Rita make money?</h2>
+          <p>Our revenue model is based on subscription, not selling data.</p>
         </div>
-        <div class="description_img">
-          <img src="images/convenient.svg" alt="" class="convenient_image">
+        <div class="plan_containers">
+          <div class="plan_container_left">
+            <h3>Free Forever Plan</h3>
+            <ul>
+              <li>
+                <img src="images/check_icon.svg" alt="" />
+                <span>Collect data</span>
+              </li>
+              <li>
+                <img src="images/check_icon.svg" alt="" />
+                <span>Access dashboard</span>
+              </li>
+              <li class="disable">
+                <img src="images/uncheck_icon.svg" alt="" />
+                <span>Store data</span>
+              </li>
+              <li class="disable">
+                <img src="images/uncheck_icon.svg" alt="" />
+                <span>Manage data</span>
+              </li>
+              <li class="disable">
+                <img src="images/uncheck_icon.svg" alt="" />
+                <span>Restrict data access</span>
+              </li>
+            </ul>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSf9Xvop9vgKopGrPbrlYyMxQ2no6oXI2U4Hu5J1ZDnpr5nmQA/viewform"
+              class="button"
+              target="_blank"
+            >
+              Sign Up
+            </a>
+            <p>Get free access to our Beta version.</p>
+          </div>
+          <div class="plan_container_right">
+            <h3>Premium Plan</h3>
+            <ul>
+              <li>
+                <img src="images/check_icon.svg" alt="" />
+                <span>Collect data</span>
+              </li>
+              <li>
+                <img src="images/check_icon.svg" alt="" />
+                <span>Access dashboard</span>
+              </li>
+              <li class="disable">
+                <img src="images/check_icon.svg" alt="" />
+                <span>Store data</span>
+              </li>
+              <li class="disable">
+                <img src="images/check_icon.svg" alt="" />
+                <span>Manage data</span>
+              </li>
+              <li class="disable">
+                <img src="images/check_icon.svg" alt="" />
+                <span>Restrict data access</span>
+              </li>
+            </ul>
+            <div class="premium_text">
+              <h4>Premium Plan coming soon.</h4>
+              <p>Contact us for more info.</p>
+            </div>
+          </div>
         </div>
       </div>
 
+      <!-- pricing section end -->
 
-      <div class="description_column">
-        <div class="description_text">
-          <h2>safe</h2>
-          <p>We never have access to your data
-            since it’s stored on your personal device.
+      <!-- our mission start -->
+      <div class="mission_section">
+        <div class="mission_text">
+          <h2>Our mission</h2>
+          <p>
+            Rita strongly believes in a democratised data economy, where any
+            internet user can access their data without effort.
+          </p>
+          <p>
+            We aim to empower any user, by providing a secure way of
+            understanding and managing personal data.
           </p>
         </div>
-        <div class="description_img">
-          <img src="images/safe.svg" alt="clock">
+        <div class="mission_img">
+          <img
+            src="images/mission.png"
+            alt="a man climbing to top of the mountain"
+          />
         </div>
       </div>
-    </div>
 
-    <!-- end description section -->
-
-
-    <h2 class="steps_title">How to take control of your data?</h2>
-    <!-- Collect start -->
-    <section>
-      <div class="collect">
-        <div class="collect__shape">
+      <!-- Testimonial start -->
+      <section id="testimonial">
+        <div class="user-say">
           <div class="container">
-            <div class="collect__inner">
+            <div class="user-say__inner">
+              <div class="user-say__title">
+                <div class="common-content">
+                  <h2>What our users say.</h2>
+                </div>
+              </div>
               <div class="row">
                 <div class="col-lg-6">
-                  <div class="collect__content">
-                    <div class="row no-gutters">
-                      <div class="col-md-6">
-                        <div class="collect__box">
-                          <div class="collect__box-inner">
-                            <p>Facebook</p>
-                            <img src="images/facebook.svg" alt="" />
-                            <a href="#">Get My Data</a>
-                          </div>
-                        </div>
-                        <div class="collect__box">
-                          <div class="collect__box-inner">
-                            <p>Spotify</p>
-                            <img src="images/spotify.svg" alt="" />
-                            <a href="#">Get My Data</a>
-                          </div>
-                        </div>
+                  <div class="user-say__box">
+                    <div class="user-say__box-header">
+                      <div class="user-say__box-image">
+                        <img src="images/user-1.png" alt="" />
                       </div>
-                      <div class="col-md-6">
-                        <div class="collect__box">
-                          <div class="collect__box-inner">
-                            <p>Google</p>
-                            <img src="images/google.svg" alt="" />
-                            <a href="#">Get My Data</a>
-                          </div>
-                        </div>
-                        <div class="collect__box">
-                          <div class="collect__box-inner">
-                            <p>Instagram</p>
-                            <img src="images/Instagram.svg" alt="" />
-                            <a href="#">Get My Data</a>
-                          </div>
-                        </div>
+                      <h4>Louis</h4>
+                      <div class="user-say__box-review">
+                        <img src="images/star-image.png" alt="" />
                       </div>
+                    </div>
+                    <div class="user-say__box-description">
+                      <p>“Rita helped me understand the value of my data”</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-6">
-                  <div class="collect__heading">
-                    <div class="common-content">
-                      <img src="images/step_1.svg" alt="" id="step_img">
-                      <h2>Collect.</h2>
-                      <p>
-                        Sign up and within a few clicks, understand your data from your favorite
-                        websites. With the help
-                        of our guide you’ll have all the information about you stored securely.
-                      </p>
+                  <div class="user-say__box">
+                    <div class="user-say__box-header">
+                      <div class="user-say__box-image">
+                        <img src="images/user-1.png" alt="" />
+                      </div>
+                      <h4>Louis</h4>
+                      <div class="user-say__box-review">
+                        <img src="images/star-image.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="user-say__box-description">
+                      <p>“Rita helped me understand the value of my data”</p>
                     </div>
                   </div>
                 </div>
@@ -309,405 +700,85 @@
             </div>
           </div>
         </div>
-    </section>
-    <!-- Collect end -->
+      </section>
+      <!-- Testimonial end -->
 
-    <!-- Understand start -->
-    <section>
-      <div class="understand">
-        <div class="understand__shape">
+      <!-- Subscribe form start -->
+      <section>
+        <div class="subscribe">
           <div class="container">
-            <div class="understand__inner">
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="understand__heading">
+            <div class="subscribe__inner">
+              <div class="row justify-content-center">
+                <div class="col-lg-9">
+                  <div class="subscribe__form">
                     <div class="common-content">
-                      <img src="images/step_2.svg" alt="" id="step_img">
-                      <h2>Visualize.</h2>
-                      <p>
-                        Let our tool analyze your data and visualize it so you can understand
-                        what companies know about
-                        you and do with your data. Get an immediate overview of your digital
-                        footprint.
-                      </p>
+                      <h2>Sign up for our Beta Version.</h2>
                     </div>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="understand__image">
-                    <div class="understand__image-item">
-                      <img src="images/dashboard_img.png" alt="image of dashboard showing" />
-                    </div>
+                    <form>
+                      <div class="subscribe__field">
+                        <input type="email" placeholder="Enter Your Email" />
+                        <button type="submit" class="button">subscribe</button>
+                      </div>
+                    </form>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+      <!-- Subscribe form end -->
 
-    </section>
-    <!-- Understand end -->
-
-    <!-- Choose start -->
-    <section>
-      <div class="choose">
-        <div class="choose__shape">
-          <div class="container">
-            <div class="choose__inner">
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="choose__boxes">
-                    <div class="choose__box">
-                      <div class="choose__box-inner">
-                        <p>Zalando.com</p>
-                        <label class="switch">
-                          <input type="checkbox" checked />
-                          <span class="toggle"></span>
-                        </label>
-                      </div>
-                    </div>
-                    <div class="choose__box">
-                      <div class="choose__box-inner">
-                        <p>Nike.com</p>
-                        <label class="switch">
-                          <input type="checkbox" checked />
-                          <span class="toggle"></span>
-                        </label>
-                      </div>
-                    </div>
-                    <div class="choose__box">
-                      <div class="choose__box-inner">
-                        <p>Amazon.com</p>
-                        <label class="switch">
-                          <input type="checkbox" checked />
-                          <span class="toggle"></span>
-                        </label>
-                      </div>
-                    </div>
-                    <div class="choose__box">
-                      <div class="choose__box-inner">
-                        <p>Airbnb.com</p>
-                        <label class="switch">
-                          <input type="checkbox" checked />
-                          <span class="toggle"></span>
-                        </label>
-                      </div>
-                    </div>
-                    <div class="choose__box">
-                      <div class="choose__box-inner">
-                        <p>Blinkist.com</p>
-                        <label class="switch">
-                          <input type="checkbox" checked />
-                          <span class="toggle"></span>
-                        </label>
-                      </div>
-                    </div>
-                    <div class="choose__box">
-                      <div class="choose__box-inner">
-                        <p>Adobe.com</p>
-                        <label class="switch">
-                          <input type="checkbox" checked />
-                          <span class="toggle"></span>
-                        </label>
-                      </div>
-                    </div>
-                    <div class="choose__box">
-                      <div class="choose__box-inner">
-                        <p>CA.com</p>
-                        <label class="switch">
-                          <input type="checkbox" />
-                          <span class="toggle"></span>
-                        </label>
-                      </div>
-                    </div>
-                    <div class="choose__box">
-                      <div class="choose__box-inner">
-                        <p>Verisk.com</p>
-                        <label class="switch">
-                          <input type="checkbox" />
-                          <span class="toggle"></span>
-                        </label>
-                      </div>
-                    </div>
-                    <div class="choose__box">
-                      <div class="choose__box-inner">
-                        <p>Acxiom.com</p>
-                        <label class="switch">
-                          <input type="checkbox" />
-                          <span class="toggle"></span>
-                        </label>
-                      </div>
-                    </div>
-                    <div class="choose__box">
-                      <div class="choose__box-inner">
-                        <p>Epsilon.com</p>
-                        <label class="switch">
-                          <input type="checkbox" />
-                          <span class="toggle"></span>
-                        </label>
-                      </div>
-                    </div>
-                    <div class="choose__box">
-                      <div class="choose__box-inner">
-                        <p>Experian.com</p>
-                        <label class="switch">
-                          <input type="checkbox" />
-                          <span class="toggle"></span>
-                        </label>
-                      </div>
-                    </div>
-                    <div class="choose__box">
-                      <div class="choose__box-inner">
-                        <p>PI.com</p>
-                        <label class="switch">
-                          <input type="checkbox" />
-                          <span class="toggle"></span>
-                        </label>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="choose__heading">
-                    <div class="common-content">
-                      <img src="images/step_3.svg" alt="" id="step_img">
-                      <h2>Choose.</h2>
-                      <p>
-                        Choose which information companies can and can’t
-                        access. Rita’s data management tools allow you to be
-                        in full control within seconds.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Choose end -->
-
-    <!-- safety section begin -->
-
-
-    <h2 class="safety_title">Is my data safe with you?</h2>
-    <div class="safety_section">
-      <div class="safety_text">
-        <h3>We can't and don't want to see your data.</h3>
-        <p>You file is encrypted and stored on your device, so we can’t access it. You are the only one who has
-          access
-          and can choose who can and can’t look at it.</p>
-        <a href="#" class="link"> Learn More </a>
-
-        <h3>Still not sure?</h3>
-        <p>If you change your mind you can delete your file from Rita dashboard any time. Forever.</p>
-        <a href="#" class="link"> Learn More </a>
-      </div>
-      <div class="safety_image"><img src="images/safety.png" alt="a girl holding a lock"></div>
-    </div>
-
-    <!-- pricing section begin -->
-    <div class="pricing_section">
-      <div class="pricing_text">
-        <h2>How does Rita make money?</h2>
-        <p>Our revenue model is based on subscription, not selling data.</p>
-      </div>
-      <div class="plan_containers">
-        <div class="plan_container_left">
-          <h3>Free Forever Plan</h3>
-          <ul>
-            <li>
-              <img src="images/check_icon.svg" alt="" />
-              <span>Collect data</span>
-            </li>
-            <li>
-              <img src="images/check_icon.svg" alt="" />
-              <span>Access dashboard</span>
-            </li>
-            <li class="disable">
-              <img src="images/uncheck_icon.svg" alt="" />
-              <span>Store data</span>
-            </li>
-            <li class="disable">
-              <img src="images/uncheck_icon.svg" alt="" />
-              <span>Manage data</span>
-            </li>
-            <li class="disable">
-              <img src="images/uncheck_icon.svg" alt="" />
-              <span>Restrict data access</span>
-            </li>
-          </ul>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9Xvop9vgKopGrPbrlYyMxQ2no6oXI2U4Hu5J1ZDnpr5nmQA/viewform"
-            class="button" target="_blank">
-            Sign Up
-          </a>
-          <p>Get free access to our Beta version.</p>
-        </div>
-        <div class="plan_container_right">
-          <h3>Premium Plan</h3>
-          <ul>
-            <li>
-              <img src="images/check_icon.svg" alt="" />
-              <span>Collect data</span>
-            </li>
-            <li>
-              <img src="images/check_icon.svg" alt="" />
-              <span>Access dashboard</span>
-            </li>
-            <li class="disable">
-              <img src="images/check_icon.svg" alt="" />
-              <span>Store data</span>
-            </li>
-            <li class="disable">
-              <img src="images/check_icon.svg" alt="" />
-              <span>Manage data</span>
-            </li>
-            <li class="disable">
-              <img src="images/check_icon.svg" alt="" />
-              <span>Restrict data access</span>
-            </li>
-          </ul>
-          <div class="premium_text">
-            <h4>Premium Plan coming soon.</h4>
-            <p>Contact us for more info.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- pricing section end -->
-
-    <!-- our mission start -->
-    <div class="mission_section">
-      <div class="mission_text">
-        <h2>Our mission</h2>
-        <p>Rita strongly believes in a democratised data economy, where any internet user can access their data without
-          effort.</p>
-        <p>We aim to empower any user, by providing a secure way of understanding and managing personal data.</p>
-      </div>
-      <div class="mission_img">
-        <img src="images/mission.png" alt="a man climbing to top of the mountain"></div>
-    </div>
-
-    <!-- Testimonial start -->
-    <section id="testimonial">
-      <div class="user-say">
+      <!-- Counter start -->
+      <div class="counter">
         <div class="container">
-          <div class="user-say__inner">
-            <div class="user-say__title">
-              <div class="common-content">
-                <h2>What our users say.</h2>
-              </div>
-            </div>
+          <div class="counter__inner">
             <div class="row">
-              <div class="col-lg-6">
-                <div class="user-say__box">
-                  <div class="user-say__box-header">
-                    <div class="user-say__box-image">
-                      <img src="images/user-1.png" alt="" />
-                    </div>
-                    <h4>Louis</h4>
-                    <div class="user-say__box-review">
-                      <img src="images/star-image.png" alt="" />
-                    </div>
-                  </div>
-                  <div class="user-say__box-description">
-                    <p>“Rita helped me understand the value of my data”</p>
-                  </div>
+              <div class="col-lg-4">
+                <div class="counter__item">
+                  <h1>1,789,068</h1>
+                  <p>Data Points Presented</p>
                 </div>
               </div>
-              <div class="col-lg-6">
-                <div class="user-say__box">
-                  <div class="user-say__box-header">
-                    <div class="user-say__box-image">
-                      <img src="images/user-1.png" alt="" />
-                    </div>
-                    <h4>Louis</h4>
-                    <div class="user-say__box-review">
-                      <img src="images/star-image.png" alt="" />
-                    </div>
-                  </div>
-                  <div class="user-say__box-description">
-                    <p>“Rita helped me understand the value of my data”</p>
-                  </div>
+              <div class="col-lg-4">
+                <div class="counter__item">
+                  <h1>€47,980</h1>
+                  <p>Total Data Value</p>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="counter__item">
+                  <h1>76</h1>
+                  <p>Beta Testers</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- Testimonial end -->
+      <!-- Counter end -->
 
-    <!-- Subscribe form start -->
-    <section>
-      <div class="subscribe">
-        <div class="container">
-          <div class="subscribe__inner">
-            <div class="row justify-content-center">
-              <div class="col-lg-9">
-                <div class="subscribe__form">
-                  <div class="common-content">
-                    <h2>Sign up for our Beta Version.</h2>
-                  </div>
-                  <form>
-                    <div class="subscribe__field">
-                      <input type="email" placeholder="Enter Your Email" />
-                      <button type="submit" class="button">subscribe</button>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
+      <!-- Footer start -->
+      <footer>
+        <div class="copyright">
+          <p>© 2020 Rita. All Rights Reserved</p>
         </div>
-      </div>
-    </section>
-    <!-- Subscribe form end -->
-
-    <!-- Counter start -->
-    <div class="counter">
-      <div class="container">
-        <div class="counter__inner">
-          <div class="row">
-            <div class="col-lg-4">
-              <div class="counter__item">
-                <h1>1,789,068</h1>
-                <p>Data Points Presented</p>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="counter__item">
-                <h1>€47,980</h1>
-                <p>Total Data Value</p>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="counter__item">
-                <h1>76</h1>
-                <p>Beta Testers</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      </footer>
+      <!-- Footer end -->
     </div>
-    <!-- Counter end -->
+    <!-- Wrapper end -->
 
-    <!-- Footer start -->
-    <footer>
-      <div class="copyright">
-        <p>© 2020 Rita. All Rights Reserved</p>
-      </div>
-    </footer>
-    <!-- Footer end -->
-  </div>
-  <!-- Wrapper end -->
-
-  <!-- Main js file -->
-  <script src="js/script.js "></script>
-</body>
-
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-WPFL872"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- Main js file -->
+    <script src="js/script.js "></script>
+  </body>
 </html>
