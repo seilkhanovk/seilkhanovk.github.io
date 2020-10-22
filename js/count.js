@@ -16,7 +16,7 @@ const getRandomValues = (base) => {
   const adTracked = { "MIN": Math.floor(base*4000/24), "MAX": Math.floor(base*4500/24) }
   const adClicked = { "MIN": Math.floor(base*9500/24), "MAX": Math.floor(base*9999/24) }
 
-  return [getRandomInt(adEarned.MIN, adEarned.MAX), getRandomInt(adTracked.MIN, adTracked.MAX), getRandomInt(adClicked.MIN, adClicked.MAX)]
+  return [(getRandomInt(adEarned.MIN, adEarned.MAX)/403*60), (getRandomInt(adTracked.MIN, adTracked.MAX)/403*60), (getRandomInt(adClicked.MIN, adClicked.MAX)/403*60)]
 }
 
 const getRandomInt = (min, max) => {
@@ -35,9 +35,9 @@ const updateValues = (event) => {
   if (NUM_REGEX.test(userInput)) {
     const userNumber = parseInt(userInput);
     if (userNumber >= 0 && userNumber <= 24) displayCountUp(parseInt(userInput));
-    else alert('Please enter valid hours in a day: 0-24');
-  } 
-  else alert('Please enter number only');
+    else alert('Please enter an an amount between 0 and 24.');
+  }
+  else alert('Please enter a number');
 }
 
 window.onload = () => displayCountUp();
