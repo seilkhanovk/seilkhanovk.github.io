@@ -557,7 +557,7 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
 }
 
 .description_img {
-  background-image: url("../images/animation.gif");
+  background-image: url("../static/img/animation.gif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -583,7 +583,7 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
 }
 
 .collect__shape {
-  background-image: url(../images/shape-1.png);
+  background-image: url(../static/img/shape-1.png);
   background-repeat: no-repeat;
   padding-top: 190px;
 }
@@ -666,7 +666,7 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
 
 .understand__shape {
   background-repeat: no-repeat;
-  background-image: url(../images/shape-2.png);
+  background-image: url(../static/img/shape-2.png);
   padding: 140px 0px 150px;
   background-position: right;
   background-size: contain;
@@ -782,7 +782,7 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
 }
 
 .choose__shape {
-  background-image: url(../images/shape-3.png);
+  background-image: url(../static/img/shape-3.png);
   background-repeat: no-repeat;
   background-position: left top;
   padding-top: 60px;
@@ -812,7 +812,7 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
   width: 210px;
   height: 210px;
   background-repeat: no-repeat;
-  background-image: url(../images/shape-4.png);
+  background-image: url(../static/img/shape-4.png);
   z-index: -1;
   background-size: contain;
 }
@@ -896,7 +896,7 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
 }
 
 .zigzag__shape {
-  background-image: url(../images/shape-5.png);
+  background-image: url(../static/img/shape-5.png);
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
@@ -918,7 +918,7 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
 }
 
 .pricing_section {
-  background: url(../images/pricing_bg.png) no-repeat top;
+  background: url(../static/img/pricing_bg.png) no-repeat top;
   background-size: 100% 35em;
   margin: 10em 0;
 }
