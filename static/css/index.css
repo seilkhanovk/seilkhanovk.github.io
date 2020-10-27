@@ -1,47 +1,42 @@
 @charset "UTF-8";
-
 /* nunito-regular - latin */
-
 @font-face {
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 400;
-  src: local('Nunito Regular'), local('Nunito-Regular'),       url('../fonts/nunito-v14-latin-regular.woff2') format('woff2'), 
-       url('../fonts/nunito-v14-latin-regular.woff') format('woff');
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local('Nunito Regular'), local('Nunito-Regular'),
+       url('../fonts/nunito-v14-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/nunito-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* nunito-600 - latin */
-
 @font-face {
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 600;
-  src: local('Nunito SemiBold'), local('Nunito-SemiBold'),       url('../fonts/nunito-v14-latin-600.woff2') format('woff2'), 
-       url('../fonts/nunito-v14-latin-600.woff') format('woff');
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local('Nunito SemiBold'), local('Nunito-SemiBold'),
+       url('../fonts/nunito-v14-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/nunito-v14-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* nunito-700 - latin */
-
 @font-face {
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 700;
-  src: local('Nunito Bold'), local('Nunito-Bold'),       url('../fonts/nunito-v14-latin-700.woff2') format('woff2'), 
-       url('../fonts/nunito-v14-latin-700.woff') format('woff');
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local('Nunito Bold'), local('Nunito-Bold'),
+       url('../fonts/nunito-v14-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/nunito-v14-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* nunito-900 - latin */
-
 @font-face {
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 900;
-  src: local('Nunito Black'), local('Nunito-Black'),       url('../fonts/nunito-v14-latin-900.woff2') format('woff2'), 
-       url('../fonts/nunito-v14-latin-900.woff') format('woff');
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local('Nunito Black'), local('Nunito-Black'),
+       url('../fonts/nunito-v14-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/nunito-v14-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /************************************/
@@ -51,7 +46,6 @@
 /************************************/
 
 body {
-  font-size: 1rem;
   color: #242a4c;
   margin: 0px;
   padding: 0px;
@@ -59,17 +53,16 @@ body {
   overflow-x: hidden;
 }
 
-h1,h2,h3,h4,h5,h6,p {
+h1, h2, h3, h4, h5, h6, p {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: "Nunito", sans-serif;
 }
 
 /* img {
   max-width: 100%;
 } */
 
-a:hover,a {
+a:hover, a {
   text-decoration: none;
   outline: 0;
 }
@@ -89,7 +82,7 @@ a:focus {
   color: #fff;
 }
 
-*,::after,::before {
+*, ::after, ::before {
   box-sizing: border-box;
 }
 
@@ -99,7 +92,7 @@ ul {
   list-style: none;
 }
 
-button:focus,input:focus,img:focus,input:focus {
+button:focus, input:focus, img:focus, textarea:focus, input:focus {
   outline: none;
 }
 
@@ -117,7 +110,6 @@ button:focus,input:focus,img:focus,input:focus {
   color: #fff;
   font-size: .8rem;
   font-weight: 900;
-  font-family: "Nunito", sans-serif;
   text-transform: uppercase;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -172,6 +164,7 @@ button:focus,input:focus,img:focus,input:focus {
 .common-content p {
   color: #242a4c;
   font-weight: 600;
+  ;
   font-size: 18px;
   line-height: 28px;
 }
@@ -227,7 +220,7 @@ button:focus,input:focus,img:focus,input:focus {
   align-items: center;
 }
 
-.header__logo a,.header__logo img {
+.header__logo a, .header__logo img {
   display: block;
 }
 
@@ -414,23 +407,22 @@ button:focus,input:focus,img:focus,input:focus {
 /* new hero section */
 
 .new_banner {
-  height: 80vh;
+  min-height: 80vh;
   background-color: #F7D6B7;
   display: flex;
   justify-content: space-between;
 }
 
 .new_banner h1 {
-  font-family: "Nunito", sans-serif;
-  line-height: 50px;
+  line-height: 2rem;
   color: #242A4C;
-  font-size: 3vw;
+  font-size: 2rem;
   font-weight: 900;
   margin-bottom: 3vh;
+  ;
 }
 
 .new_banner p {
-  font-family: "Nunito", sans-serif;
   font-size: 1.2rem;
   color: #242A4C;
   font-weight: 600;
@@ -441,6 +433,7 @@ button:focus,input:focus,img:focus,input:focus {
 .new_banner_text {
   margin-top: 25vh;
   margin-left: 17vw;
+  margin-bottom: 5rem;
 }
 
 .new_banner_img {
@@ -456,14 +449,14 @@ button:focus,input:focus,img:focus,input:focus {
 /* new form section */
 
 .form_container {
-  width: 45vw;
+  width: 35rem;
   background-color: #242A4C;
   margin: 0 auto;
   text-align: center;
   border-radius: 30px;
   padding: 3vh 3vw;
   color: #F7D6B7;
-  margin-top: -9.5vh;
+  margin-top: -3rem;
   box-shadow: 0px 10px 20px rgba(36, 42, 76, 0.18), 0px 2px 6px rgba(36, 42, 76, 0.12), 0px 0px 1px rgba(0, 0, 0, 0.04);
 }
 
@@ -491,7 +484,6 @@ button:focus,input:focus,img:focus,input:focus {
   padding: .8vh 1.5vw;
   background-color: #2EBFA5;
   color: #fff;
-  font-family: "Nunito", sans-serif;
   text-transform: uppercase;
   font-weight: 900;
   border: none;
@@ -663,6 +655,10 @@ button:focus,input:focus,img:focus,input:focus {
   text-align: center;
   font-size: 14px;
   font-weight: 600;
+}
+
+.collect .collect-box-top-margin {
+  margin-top: -30px;
 }
 
 .collect__heading {
@@ -920,6 +916,15 @@ button:focus,input:focus,img:focus,input:focus {
   position: absolute;
 }
 
+.zigzag__shape {
+  background-image: url(../static/img/shape-5.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  padding-bottom: 90px;
+  padding-top: 40px;
+}
+
 /* pricing section */
 
 .pricing_text {
@@ -947,13 +952,13 @@ button:focus,input:focus,img:focus,input:focus {
   padding: 0;
 }
 
-.plan_container_left span,.plan_container_right span {
+.plan_container_left span, .plan_container_right span {
   font-size: 1rem;
   position: relative;
   bottom: .5em;
 }
 
-.plan_container_left h3,.plan_container_right h3 {
+.plan_container_left h3, .plan_container_right h3 {
   font-weight: 900;
 }
 
@@ -965,7 +970,7 @@ button:focus,input:focus,img:focus,input:focus {
   width: 18em;
 }
 
-.plan_container_left ul {
+.plan_container_left ul  {
   margin: 4vh 0 3vh 0;
 }
 
@@ -973,7 +978,7 @@ button:focus,input:focus,img:focus,input:focus {
   margin: 4vh 0 3vh 0;
 }
 
-.plan_container_left li,.plan_container_right li {
+.plan_container_left li, .plan_container_right li {
   margin-bottom: 1vh;
 }
 
@@ -1011,6 +1016,7 @@ button:focus,input:focus,img:focus,input:focus {
   font-size: .8rem;
 }
 
+
 /* mission section */
 
 .mission_section {
@@ -1018,8 +1024,8 @@ button:focus,input:focus,img:focus,input:focus {
   justify-content: center;
   background-color: #242A4C;
   color: #FFE9CE;
-  width: 60vw;
-  margin: 30vh auto;
+  width: 45rem;
+  margin: 10rem auto;
   box-shadow: 0px 16px 24px rgba(36, 42, 76, 0.2), 0px 2px 6px rgba(36, 42, 76, 0.12), 0px 0px 1px rgba(0, 0, 0, 0.04);
   border-radius: 12px;
 }
@@ -1030,12 +1036,13 @@ button:focus,input:focus,img:focus,input:focus {
 
 .mission_text h2 {
   font-weight: 900;
-  font-size: 2vw;
+  font-size: 2rem;
   margin-bottom: 2vh;
 }
 
 .mission_text p {
   font-weight: 400;
+  font-size: 1.2rem;
   margin-bottom: 1.5vw;
 }
 
@@ -1161,6 +1168,57 @@ button:focus,input:focus,img:focus,input:focus {
   margin-bottom: 30px;
 }
 
+.subscribe__field {
+  position: relative;
+}
+
+.subscribe__field input {
+  display: block;
+  width: 100%;
+  padding: 0px 30px;
+  font-size: 18px;
+  color: #0f111f;
+  background: #fff;
+  border: 5px solid #fff;
+  font-family: "Poppins", sans-serif;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -ms-transition: all 500ms;
+  -o-transition: all 500ms;
+  transition: all 500ms;
+  height: 70px;
+}
+
+.subscribe__field input:focus {
+  border-color: #242a4c;
+}
+
+.subscribe__field input::placeholder {
+  color: #7d7e85;
+  font-weight: normal;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.subscribe__field button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 60px;
+  line-height: 60px;
+}
+
+.subscribe__field button:hover {
+  background: #242a4c;
+  color: #fff;
+  cursor: pointer;
+}
+
 .counter {
   background: #242a4c;
   padding: 100px 0px;
@@ -1171,7 +1229,7 @@ button:focus,input:focus,img:focus,input:focus {
 }
 
 .counter__item h1 {
-  font-size: 50px;
+  font-size: 1rem;
   line-height: 57px;
   color: #f7d6b7;
   margin-bottom: 25px;
