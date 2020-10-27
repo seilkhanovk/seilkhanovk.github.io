@@ -1,7 +1,7 @@
 import { CountUp } from './countUp.min.js';
 
 const displayCountUp = (userInput=-1) => {
-  const values = userInput === -1 ? [958, 2778, 5684] : getRandomValues(userInput);
+  const values = userInput === -1 ? getRandomValues(userInput) : getCalculatedValues(userInput);
 
   for (let index=0; index<3; index++) {
     const elementID = 'number'+index;
@@ -10,13 +10,22 @@ const displayCountUp = (userInput=-1) => {
   }
 }
 
-const getRandomValues = (base) => {
-  base = parseInt(base)
-  const adEarned = { "MIN": Math.floor(base*900/24), "MAX": Math.floor(base*999/24) }
-  const adTracked = { "MIN": Math.floor(base*4000/24), "MAX": Math.floor(base*4500/24) }
-  const adClicked = { "MIN": Math.floor(base*9500/24), "MAX": Math.floor(base*9999/24) }
+const getCalculatedValues = (base) => {
+  base = parseInt(base);
+  const adEarned = base*60*2.23325062;
+  const adTracked = base*60*9.925558313;
+  const adClicked = base*60*23.573200993;
 
-  return [(getRandomInt(adEarned.MIN, adEarned.MAX)/403*60), (getRandomInt(adTracked.MIN, adTracked.MAX)/403*60), (getRandomInt(adClicked.MIN, adClicked.MAX)/403*60)]
+  return [adEarned, adTracked, adClicked];
+}
+
+const getRandomValues = (base) => {
+  base = parseInt(base);
+  const adEarned = { "MIN": Math.floor(900), "MAX": Math.floor(999) };
+  const adTracked = { "MIN": Math.floor(4000), "MAX": Math.floor(4500) };
+  const adClicked = { "MIN": Math.floor(9500), "MAX": Math.floor(9999) };
+
+  return [getRandomInt(adEarned.MIN, adEarned.MAX), getRandomInt(adTracked.MIN, adTracked.MAX), getRandomInt(adClicked.MIN, adClicked.MAX)];
 }
 
 const getRandomInt = (min, max) => {
@@ -37,7 +46,7 @@ const updateValues = (event) => {
     if (userNumber >= 0 && userNumber <= 24) displayCountUp(parseInt(userInput));
     else alert('Please enter an an amount between 0 and 24.');
   }
-  else alert('Please enter a number');
+  else alert('Please enter a round number.');
 }
 
 window.onload = () => displayCountUp();
