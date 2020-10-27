@@ -1229,16 +1229,16 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
 }
 
 .counter__item h1 {
-  font-size: 1rem;
-  line-height: 57px;
+  font-size: 2.5rem;
+  line-height: 2rem;
   color: #f7d6b7;
-  margin-bottom: 25px;
+  margin-bottom: 2rem;
 }
 
 .counter__item p {
   color: #fff;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .copyright {
@@ -1250,4 +1250,12 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
 .copyright p {
   color: #7d7e85;
   font-size: 16px;
+}
+
+.copyright a {
+  color: #7d7e85;
+}
+
+#footer {
+  background: #0f111f;
 }
