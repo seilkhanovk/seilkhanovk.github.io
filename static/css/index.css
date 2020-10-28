@@ -491,6 +491,7 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
   text-transform: uppercase;
   font-weight: 900;
   border: none;
+  cursor: pointer;
   border-radius: 5px;
 }
 
@@ -1233,16 +1234,16 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
 }
 
 .counter__item h1 {
-  font-size: 2.5rem;
-  line-height: 2rem;
+  font-size: 1rem;
+  line-height: 57px;
   color: #f7d6b7;
-  margin-bottom: 2rem;
+  margin-bottom: 25px;
 }
 
 .counter__item p {
   color: #fff;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 .copyright {

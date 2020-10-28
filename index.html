@@ -39,6 +39,7 @@
     <title>Rita - Your data, in your hands</title>
     <!-- CSS -->
     <link href="static/css/index.css" media="screen" rel="stylesheet" />
+    <link href="static/css/responsive.css" media="screen" rel="stylesheet" />
     <link
       href="static/css/bootstrap-grid.min.css"
       media="screen"
@@ -264,8 +265,10 @@
     <!-- Rita description section -->
     <div class="description_section">
       <div class="description_column">
-        <div class="description_text">
+        <div class="description_title">
           <h2>easy</h2>
+        </div>
+        <div class="description_text">
           <p>
             With our tutorials and intuitive dashboard you can collect and
             visualize your data in minutes.
@@ -277,8 +280,10 @@
       </div>
 
       <div class="description_column">
-        <div class="description_text">
+        <div class="description_title">
           <h2>convenient</h2>
+        </div>
+        <div class="description_text">
           <p>
             Everything is done in the browser; no need to download and install.
           </p>
@@ -293,8 +298,10 @@
       </div>
 
       <div class="description_column">
-        <div class="description_text">
+        <div class="description_title">
           <h2>safe</h2>
+        </div>
+        <div class="description_text">
           <p>
             We never have access to your data since it’s stored on your personal
             device.
@@ -316,10 +323,10 @@
           <div class="container">
             <div class="collect__inner">
               <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 step-order-one">
                   <div class="collect__content">
                     <div class="row no-gutters">
-                      <div class="col-md-6">
+                      <div class="col-md-6 col-6">
                         <div class="collect__box">
                           <div class="collect__box-inner">
                             <p>Facebook</p>
@@ -341,7 +348,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="col-md-6">
+                      <div class="col-md-6 col-6">
                         <div class="collect__box">
                           <div class="collect__box-inner">
                             <p>Google</p>
@@ -366,7 +373,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 step-order-two">
                   <div class="collect__heading">
                     <div class="common-content">
                       <img
@@ -375,6 +382,8 @@
                         class="step_img"
                       />
                       <h2>Collect.</h2>
+                    </div>
+                    <div class="collect__text">
                       <p>
                         Sign up and within a few clicks, understand your data
                         from your favorite websites. With the help of our guide
@@ -408,6 +417,8 @@
                         class="step_img"
                       />
                       <h2>Visualize.</h2>
+                    </div>
+                    <div class="collect__text">
                       <p>
                         Let our tool analyze your data and visualize it so you
                         can understand what companies know about you and do with
@@ -442,7 +453,7 @@
           <div class="container">
             <div class="choose__inner">
               <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 step-order-one">
                   <div class="choose__boxes">
                     <div class="choose__box">
                       <div class="choose__box-inner">
@@ -554,11 +565,13 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 step-order-two">
                   <div class="choose__heading">
                     <div class="common-content">
                       <img src="static/img/step_3.svg" alt="" id="step_img" />
                       <h2>Choose.</h2>
+                    </div>
+                    <div class="collect__text">
                       <p>
                         Choose which information companies can and can’t access.
                         Rita’s data management tools allow you to be in full
@@ -579,7 +592,7 @@
 
     <h2 class="safety_title" id="safety">Is my data safe with you?</h2>
     <div class="safety_section">
-      <div class="safety_text">
+      <div class="safety_text step-order-one">
         <h3>We can't and don't want to see your data.</h3>
         <p>
           You file is encrypted and stored on your device, so we can’t access
@@ -595,7 +608,7 @@
         </p>
         <a href="#" class="link"> Learn More </a>
       </div>
-      <div class="safety_image">
+      <div class="safety_image step-order-two">
         <img src="static/img/safety.png" alt="a girl holding a lock" />
       </div>
     </div>
