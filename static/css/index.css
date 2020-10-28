@@ -1256,3 +1256,11 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
   color: #7d7e85;
   font-size: 16px;
 }
+
+.copyright a {
+  color: #7d7e85;
+}
+
+#footer {
+  background: #0f111f;
+}
