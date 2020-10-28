@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* nunito-regular - latin */
+/* @import "responsive.css"; */
 @font-face {
   font-family: 'Nunito';
   font-style: normal;
@@ -7,7 +8,6 @@
   src: local('Nunito Regular'), local('Nunito-Regular'),
        url('../fonts/nunito-v14-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/nunito-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  font-display: swap;
 }
 
 /* nunito-600 - latin */
@@ -18,7 +18,6 @@
   src: local('Nunito SemiBold'), local('Nunito-SemiBold'),
        url('../fonts/nunito-v14-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/nunito-v14-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  font-display: swap;
 }
 
 /* nunito-700 - latin */
@@ -29,7 +28,6 @@
   src: local('Nunito Bold'), local('Nunito-Bold'),
        url('../fonts/nunito-v14-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/nunito-v14-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  font-display: swap;
 }
 
 /* nunito-900 - latin */
@@ -40,7 +38,6 @@
   src: local('Nunito Black'), local('Nunito-Black'),
        url('../fonts/nunito-v14-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/nunito-v14-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  font-display: swap;
 }
 
 /************************************/
@@ -491,6 +488,7 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
   text-transform: uppercase;
   font-weight: 900;
   border: none;
+  cursor: pointer;
   border-radius: 5px;
 }
 
@@ -921,7 +919,7 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
 }
 
 .zigzag__shape {
-  background-image: url(../img/shape-5.png);
+  background-image: url(../static/img/shape-5.png);
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
@@ -1233,16 +1231,16 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
 }
 
 .counter__item h1 {
-  font-size: 2.5rem;
-  line-height: 2rem;
+  font-size: 1rem;
+  line-height: 57px;
   color: #f7d6b7;
-  margin-bottom: 2rem;
+  margin-bottom: 25px;
 }
 
 .counter__item p {
   color: #fff;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 .copyright {
@@ -1254,12 +1252,4 @@ button:focus, input:focus, img:focus, textarea:focus, input:focus {
 .copyright p {
   color: #7d7e85;
   font-size: 16px;
-}
-
-.copyright a {
-  color: #7d7e85;
-}
-
-#footer {
-  background: #0f111f;
 }

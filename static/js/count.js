@@ -1,7 +1,7 @@
 import { CountUp } from './countUp.min.js';
 
 const displayCountUp = (userInput=-1) => {
-  const values = userInput === -1 ? [958, 2778, 5684] : getCalculatedValues(userInput);
+  const values = userInput === -1 ? getRandomValues(userInput) : getCalculatedValues(userInput);
 
   for (let index=0; index<3; index++) {
     const elementID = 'number'+index;
