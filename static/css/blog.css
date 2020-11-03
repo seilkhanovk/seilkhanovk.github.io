@@ -25,6 +25,15 @@
   text-decoration: none;
 }
 
+.post-container a {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.post-container a:hover {
+    text-decoration: underline dotted;
+}
+
 p {
   margin-top: 2rem;
   margin-bottom: 2rem;
