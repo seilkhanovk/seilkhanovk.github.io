@@ -67,11 +67,10 @@
             </div>
             <div class="header__menu">
               <ul>
-                <li><a href="#" class="active">Overview</a></li>
+                <li><a href="#" class="active">About</a></li>
+                <li><a>Features</a></li>
                 <li><a href="#mission">Our Mission</a></li>
-                <li><a href="#safety">Safety</a></li>
                 <li><a href="#pricing">Pricing</a></li>
-                <li><a href="#testimonial">Testimonials</a></li>
                 <li><a href="/blog">Blog</a></li>
               </ul>
             </div>
@@ -122,10 +121,11 @@
         <div class="sidebar__menu">
           <ul>
             <li><a href="#" class="active">Overview</a></li>
+            <li><a>Features</a></li>
             <li><a href="#mission">Our Mission</a></li>
-            <li><a href="#safety">Safety</a></li>
+            <!-- <li><a href="#safety">Safety</a></li> -->
             <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#testimonial">Testimonials</a></li>
+            <!-- <li><a href="#testimonial">Testimonials</a></li> -->
             <li><a href="/blog">Blog</a></li>
           </ul>
         </div>
@@ -151,25 +151,25 @@
       <div class="new_banner">
         <div class="new_banner_text">
           <h1>
-            Your data, <br />
-            in your hands.
+            Control your data, <br/> 
+            <span style="color:#2EBFA5;">in 5 minutes</span>.
           </h1>
           <p>
-            Rita is a tool that helps you understand and control your online
-            data and privacy, safely and immediately. Whenever you want. For
-            free.
+            You don’t need to be a data engineer to <span style="color: #2EBFA5; text-decoration:underline;">understand</span> your data. Rita makes it easy for you with a couple of clicks.
           </p>
           <a
             href="https://app.ritapersonaldata.com/join/"
             class="button"
             target="_blank"
           >
-            Sign Up
+            See data
           </a>
         </div>
 
-        <div class="new_banner_img">
-          <img src="static/img/hero_img_new1.png" alt="" />
+        <div class="new_banner_video">
+          <video autoplay loop muted playsinline width="100%">
+            <source src="static/video/dashboard_mockup.mp4" type="video/mp4" />
+          </video>
         </div>
       </div>
     </section>
@@ -178,9 +178,17 @@
     <section id="ad-tool">
       <div class="form_container">
         <div class="container">
-          <h2>Average user's data in numbers</h2>
+          <!-- <h2>Average user's data in numbers</h2> -->
           <div class="row">
             <div class="form_numbers">
+              <div class="col-lg-4">
+                <div class="numbers">
+                  <p>&#8205;</p>
+                  <h3>Try it out!</h3>
+                  <p>&#8205;</p>
+                </div>
+              </div>
+
               <div class="col-lg-4">
                 <div class="numbers">
                   <p>Earned</p>
@@ -204,11 +212,26 @@
                   <p>ads</p>
                 </div>
               </div>
+              
+              <div class="col-lg-4">
+                <div class="numbers">
+                  <p>Input your daily hours online</p>
+                  <div class="sub-form">
+                    <form>
+                      <input type="number" id="numberInputBox" min="0" max="24" />
+                      <button type="submit" class="button_form" id="numberInputSubmit">
+                        check
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
 
-        <p>
+        <!-- <p>
           Enter the number of hours you spend online daily to get a personalized
           report.
         </p>
@@ -220,7 +243,7 @@
               check
             </button>
           </form>
-        </div>
+        </div> -->
       </div>
     </section>
 
@@ -713,7 +736,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-lg-4">
+              <div class="col-lg-44">
                 <div class="user-say__box">
                   <div class="user-say__box-header">
                     <div class="user-say__box-image">
@@ -733,7 +756,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-44">
                 <div class="user-say__box">
                   <div class="user-say__box-header">
                     <div class="user-say__box-image">
@@ -755,7 +778,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-44">
                 <div class="user-say__box">
                   <div class="user-say__box-header">
                     <div class="user-say__box-image">
@@ -810,19 +833,19 @@
       <div class="container">
         <div class="counter__inner">
           <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-44">
               <div class="counter__item">
                 <h1>1,789,068</h1>
                 <p>Data Points Presented</p>
               </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-44">
               <div class="counter__item">
                 <h1>€47,980</h1>
                 <p>Total Data Value</p>
               </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-44">
               <div class="counter__item">
                 <h1>76</h1>
                 <p>Alpha Testers</p>
