@@ -171,8 +171,8 @@
         </div>
 
         <div class="new_banner_video">
-          <video autoplay loop muted playsinline width="100%">
-            <source src="static/video/dashboard_mockup.mp4" type="video/mp4" />
+          <video autoplay preload="auto" loop muted playsinline width="100%" id="video1">
+            <source src="static/video/dashboard_mockup1.mp4" type="video/mp4" />
           </video>
         </div>
       </div>
@@ -905,6 +905,22 @@
     <!-- End Google Tag Manager (noscript) -->
     <!-- Main js file -->
     <script src="static/js/script.js "></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      function preloadFunc()
+      {
+        var vid = document.getElementById("video1");
+        // var videoFile = 'static/video/demo.mp4';
+        // $('#video1').attr('src', videoFile);
+        // $("#video1")[0].load();
+      }
+      
+      window.onpaint = preloadFunc();
+      document.onreadystatechange = function () {
+          // console.log(document.readyState);
+      }
+
+  </script>
     <!-- CounterUp.JS -->
     <script src="static/js/count.js" type="module"></script>
   </body>
