@@ -910,14 +910,14 @@
       function preloadFunc()
       {
         var vid = document.getElementById("video1");
-        // var videoFile = 'static/video/demo.mp4';
-        // $('#video1').attr('src', videoFile);
-        // $("#video1")[0].load();
+        var videoFile = 'static/video/dashboard_mockup2.mov';
+        $('#video1').attr('src', videoFile);
+        $("#video1")[0].load();
       }
       
       window.onpaint = preloadFunc();
       document.onreadystatechange = function () {
-          // console.log(document.readyState);
+          console.log(document.readyState);
       }
 
   </script>
