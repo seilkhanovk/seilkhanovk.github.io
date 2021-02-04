@@ -483,17 +483,18 @@ input:focus {
 }
 
 .new_banner p {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     color: #242a4c;
     /* font-weight: 600; */
     width: 33vw;
+    margin-top: 3vh;
     margin-bottom: 4vh
 }
 
 .new_banner_text {
     margin-top: 15vh;
     margin-left: 7vw;
-    margin-bottom: 5rem
+    margin-bottom: 7rem
 }
 
 .new_banner_video {
@@ -551,6 +552,23 @@ input:focus {
     border: none;
     cursor: pointer;
     border-radius: 5px
+}
+
+.email-form input{
+    width: 20rem;
+    height: 1.9rem;
+    border: 1.5px solid #2EBFA5;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+.email-form button {
+    width: 20rem;
+    height: 2rem;
+    border: 1.5px solid #2EBFA5;
+    box-sizing: border-box;
+    border-radius: 7px;
+    font-size: 10px;
 }
 
 .sub-form {
@@ -1321,10 +1339,26 @@ input:focus {
         display: none
     }
     .new_banner_text p {
-        text-align: left;
+        text-align: center;
         width: unset;
         margin: 0;
-        padding: 15px 0
+        padding: 15px 0;
+    }
+    .email-form input{
+        width: 15rem;
+        height: 1.9rem;
+        border: 1.5px solid #2EBFA5;
+        box-sizing: border-box;
+        border-radius: 7px;
+    }
+    
+    .email-form button {
+        width: 10rem;
+        height: 2rem;
+        border: 1.5px solid #2EBFA5;
+        box-sizing: border-box;
+        border-radius: 7px;
+        font-size: 10px;
     }
     .intro_section {
         padding: 0 120px
