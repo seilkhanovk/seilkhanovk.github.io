@@ -56,7 +56,7 @@ ready(function() {
   const sendRequest = (email) => {
     var request = new XMLHttpRequest();
 
-    request.open("POST", 'https://rita-api-staging.herokuapp.com/create-potential-user', true);
+    request.open("POST", 'https://rita-api.herokuapp.com/create-potential-user', true);
     request.setRequestHeader('Content-Type', 'application/json');
     
     request.send(JSON.stringify({
