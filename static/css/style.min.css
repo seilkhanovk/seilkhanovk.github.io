@@ -260,7 +260,7 @@ input:focus {
     width: 100%;
     left: 0;
     top: 0;
-    background: #FFDAB7;
+    background:rgb(248, 222, 198);
     z-index: 999
 }
 
@@ -287,7 +287,7 @@ input:focus {
     height: 6vh;
     margin-top: 2vh;
     margin-bottom: 2vh;
-    margin-left: 2.1vh;
+    margin-left: 3.8vw;
 }
 
 .header__menu {
@@ -465,9 +465,9 @@ input:focus {
 }
 
 .new_banner {
-    min-height: 80vh;
-    background-image: linear-gradient(180deg, #FFDAB7 31.67%, rgba(255, 221, 189, 0.536458) 64.49%, rgba(255, 220, 187, 0) 102.46%);
-    /* background-color: #f7d6b7; */
+    min-height: 90vh;
+    /* background-image: linear-gradient(180deg, #FFDAB7 31.67%, rgba(255, 221, 189, 0.536458) 64.49%, rgba(255, 220, 187, 0) 102.46%); */
+    background-color: rgba(248, 222, 198);
     display: flex;
     justify-content: space-between
 }
@@ -493,19 +493,19 @@ input:focus {
 
 .new_banner_text {
     margin-top: 15vh;
-    margin-left: 7vw;
+    margin-left: 10vw;
     margin-bottom: 7rem
 }
 
 .new_banner_video {
-    margin-top: 10vh;
-    margin-right: 5vw
+    margin-top: 4vh;
+    margin-right: 10vw
 }
 
 .new_banner_video video {
     width: 50vw;
-    height: auto;
-    border-radius: 8px;
+    height: 65vh;
+    /* border-radius: 8px; */
     /* border: 3px solid #D6DAED; */
 }
 
