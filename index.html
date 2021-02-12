@@ -58,6 +58,7 @@
     </script>
     <!-- End Google Tag Manager -->
   </head>
+
   <body>
     <!-- Header start -->
     <header>
@@ -155,27 +156,45 @@
       <div class="new_banner">
         <div class="new_banner_text">
           <h1>
-            Stop being targeted by <br/> annoying companies.
+            Data is yours. <br />
+            Control it in 5 minutes.
           </h1>
           <p>
-            Control your data,
-            <span style="color:#2EBFA5;">in 5 minutes</span>.
+            See your data, choose who can have it and stop annoying ads.
+            <span style="color: #03b898">In total privacy</span>.
             <!-- You don’t need to be a data engineer to <span style="color: #2EBFA5; text-decoration:underline;">understand</span> your data. Rita makes it easy for you with a couple of clicks. -->
           </p>
-            <div class="email-form">
-              <!-- <form> -->
-                <input type="text" id="emailInputBox" placeholder=" Enter your email address"/>
-                <br/><br/>
-                <button type="submit" class="button_form" id="emailInputSubmit">
-                  Get early access
-                </button>
-              <!-- </form> -->
-            </div>
+          <div class="email-form">
+            <!-- <form> -->
+            <input
+              type="text"
+              id="emailInputBox"
+              placeholder=" Enter your email address"
+            />
+            <br /><br />
+            <button type="submit" class="button_form" id="emailInputSubmit">
+              Get early access
+            </button>
+            <!-- </form> -->
+          </div>
         </div>
 
         <div class="new_banner_video">
-          <video autoplay preload loop muted playsinline width="100%" id="video1">
-            <source preload poster="img/dashboard_mockup.png" src="static/video/mobile.mp4" type="video/mp4" />
+          <video
+            autoplay
+            preload
+            loop
+            muted
+            playsinline
+            width="100%"
+            id="video1"
+          >
+            <source
+              preload
+              poster="img/dashboard_mockup.png"
+              src="static/video/mobile.mp4"
+              type="video/mp4"
+            />
           </video>
         </div>
       </div>
@@ -219,21 +238,29 @@
                   <p>ads</p>
                 </div>
               </div>
-              
+
               <div class="col-lg-4">
                 <div class="numbers">
                   <p>Input your daily hours online</p>
                   <div class="sub-form">
                     <form>
-                      <input type="number" id="numberInputBox" min="0" max="24" />
-                      <button type="submit" class="button_form" id="numberInputSubmit">
+                      <input
+                        type="number"
+                        id="numberInputBox"
+                        min="0"
+                        max="24"
+                      />
+                      <button
+                        type="submit"
+                        class="button_form"
+                        id="numberInputSubmit"
+                      >
                         check
                       </button>
                     </form>
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
@@ -879,7 +906,7 @@
           </div>
           <div class="col-md-4">
             <div class="copyright">
-              <p>© 2020 Rita. All Rights Reserved</p>
+              <p>© 2021 Rita. All Rights Reserved</p>
             </div>
           </div>
           <div class="col-md-4">
@@ -897,39 +924,42 @@
     <!-- Footer end -->
 
     <!-- Matomo -->
-<script type="text/javascript">
-  var _paq = window._paq = window._paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="https://ritapersonaldata.matomo.cloud/";
-    _paq.push(['setTrackerUrl', u+'matomo.php']);
-    _paq.push(['setSiteId', '1']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.src='//cdn.matomo.cloud/ritapersonaldata.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<!-- End Matomo Code -->
+    <script type="text/javascript">
+      var _paq = (window._paq = window._paq || []);
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+      (function () {
+        var u = "https://ritapersonaldata.matomo.cloud/";
+        _paq.push(["setTrackerUrl", u + "matomo.php"]);
+        _paq.push(["setSiteId", "1"]);
+        var d = document,
+          g = d.createElement("script"),
+          s = d.getElementsByTagName("script")[0];
+        g.type = "text/javascript";
+        g.async = true;
+        g.src = "//cdn.matomo.cloud/ritapersonaldata.matomo.cloud/matomo.js";
+        s.parentNode.insertBefore(g, s);
+      })();
+    </script>
+    <!-- End Matomo Code -->
 
     <!-- Main js file -->
     <script src="static/js/script.js "></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript">
-      function preloadFunc()
-      {
+      function preloadFunc() {
         // var vid = document.getElementById("video1");
         // var videoFile = 'static/video/dashboard_mockup2.mov';
         // $('#video1').attr('src', videoFile);
         // $("#video1")[0].load();
       }
-      
+
       window.onpaint = preloadFunc();
       document.onreadystatechange = function () {
-          console.log(document.readyState);
-      }
-
-  </script>
+        console.log(document.readyState);
+      };
+    </script>
     <!-- CounterUp.JS -->
     <script src="static/js/count.js" type="module"></script>
   </body>
