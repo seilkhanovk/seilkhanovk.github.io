@@ -54,21 +54,23 @@ ready(function() {
   }
 
   const sendRequest = (email) => {
-    var request = new XMLHttpRequest();
+    // var request = new XMLHttpRequest();
 
-    request.open("POST", 'https://rita-api.herokuapp.com/potential-users', true);
-    request.setRequestHeader('Content-Type', 'application/json');
+    // request.open("POST", 'https://rita-api.herokuapp.com/potential-users', true);
+    // request.setRequestHeader('Content-Type', 'application/json');
     
-    request.send(JSON.stringify({
-      email: email
-    }));
+    // request.send(JSON.stringify({
+    //   email: email
+    // }));
     
     
-    request.addEventListener("load", function (e) {
-      let message = e.currentTarget.response;
+    // request.addEventListener("load", function (e) {
+    //   let message = e.currentTarget.response;
       
-      window.location.href = message;
-    });
+    //   window.location.href = message;
+    // });
+    
+    window.location.href = "/waitinglist";
 
   }
 })
