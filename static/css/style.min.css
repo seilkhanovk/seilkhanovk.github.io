@@ -114,18 +114,12 @@ body {
     overflow-x: hidden
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     margin-bottom: 0
 }
 
-a,
-a:hover {
+a, a:hover {
     text-decoration: none;
     outline: 0
 }
@@ -145,9 +139,7 @@ a:focus {
     color: #fff
 }
 
-*,
-::after,
-::before {
+*, ::after, ::before {
     box-sizing: border-box
 }
 
@@ -157,9 +149,7 @@ ul {
     list-style: none
 }
 
-button:focus,
-img:focus,
-input:focus {
+button:focus, img:focus, input:focus {
     outline: 0
 }
 
@@ -260,7 +250,7 @@ input:focus {
     width: 100%;
     left: 0;
     top: 0;
-    background:rgb(248, 222, 198);
+    background: rgb(248, 222, 198);
     z-index: 999
 }
 
@@ -278,8 +268,7 @@ input:focus {
     align-items: center
 }
 
-.header__logo a,
-.header__logo img {
+.header__logo a, .header__logo img {
     display: block
 }
 
@@ -469,42 +458,42 @@ input:focus {
     /* background-image: linear-gradient(180deg, #FFDAB7 31.67%, rgba(255, 221, 189, 0.536458) 64.49%, rgba(255, 220, 187, 0) 102.46%); */
     background-color: rgba(248, 222, 198);
     display: flex;
-    justify-content: space-between
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10vh;
 }
 
 .new_banner h1 {
-    line-height: 2rem;
+    line-height: 123%;
     color: #242a4c;
-    font-size: 2rem;
+    font-size: 60px;
     /* font-weight: 900; */
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     margin-bottom: 3vh;
+    letter-spacing: -1px;
 }
 
 .new_banner p {
-    font-size: 1.4rem;
+    font-size: 28px;
+    font-weight: 600;
     color: #242a4c;
     /* font-weight: 600; */
     width: 33vw;
     margin-top: 3vh;
-    margin-bottom: 4vh
+    margin-bottom: 4vh;
 }
 
 .new_banner_text {
-    margin-top: 15vh;
+    /* margin-top: 15vh;
     margin-left: 10vw;
-    margin-bottom: 7rem
-}
-
-.new_banner_video {
-    margin-top: 4vh;
-    margin-right: 10vw
+    margin-bottom: 7rem; */
+    padding-right: 5vw;
 }
 
 .new_banner_video video {
-    width: 50vw;
-    height: 65vh;
+    /* width: 50vw; */
+    height: 70vh;
     /* border-radius: 8px; */
     /* border: 3px solid #D6DAED; */
 }
@@ -545,7 +534,7 @@ input:focus {
 
 .button_form {
     padding: .8vh 1.5vw;
-    background-color: #2ebfa5;
+    background-color: #03B898;
     color: #fff;
     text-transform: uppercase;
     font-weight: 900;
@@ -554,21 +543,27 @@ input:focus {
     border-radius: 5px
 }
 
-.email-form input{
-    width: 20rem;
-    height: 1.9rem;
+.email-form input {
+    width: 400px;
+    height: 48px;
     border: 1.5px solid #2EBFA5;
     box-sizing: border-box;
     border-radius: 7px;
 }
 
 .email-form button {
-    width: 20rem;
-    height: 2rem;
-    border: 1.5px solid #2EBFA5;
+    width: 400px;
+    height: 50px;
     box-sizing: border-box;
-    border-radius: 7px;
-    font-size: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    text-transform: none;
+    font-weight: 600;
+    box-shadow: 0px 4px 8px rgba(36, 42, 76, 0.18), 0px 0px 2px rgba(36, 42, 76, 0.12), 0px 0px 1px rgba(0, 0, 0, 0.04);
+}
+
+::placeholder {
+    font-size: 16px;
 }
 
 .sub-form {
@@ -991,15 +986,13 @@ input:focus {
     padding: 0
 }
 
-.plan_container_left span,
-.plan_container_right span {
+.plan_container_left span, .plan_container_right span {
     font-size: 1rem;
     position: relative;
     bottom: .5em
 }
 
-.plan_container_left h3,
-.plan_container_right h3 {
+.plan_container_left h3, .plan_container_right h3 {
     font-weight: 900
 }
 
@@ -1019,8 +1012,7 @@ input:focus {
     margin: 4vh 0 3vh 0
 }
 
-.plan_container_left li,
-.plan_container_right li {
+.plan_container_left li, .plan_container_right li {
     margin-bottom: 1vh
 }
 
@@ -1300,8 +1292,7 @@ input:focus {
 }
 
 @media screen and (max-width:991px) {
-    body,
-    html {
+    body, html {
         overflow-x: hidden
     }
     .new_banner {
@@ -1344,14 +1335,13 @@ input:focus {
         margin: 0;
         padding: 15px 0;
     }
-    .email-form input{
+    .email-form input {
         width: 15rem;
         height: 1.9rem;
         border: 1.5px solid #2EBFA5;
         box-sizing: border-box;
         border-radius: 7px;
     }
-    
     .email-form button {
         width: 10rem;
         height: 2rem;
@@ -1455,8 +1445,7 @@ input:focus {
         text-align: center;
         flex-direction: column
     }
-    .intro_left,
-    .intro_right {
+    .intro_left, .intro_right {
         width: 100%
     }
     .intro_left h2 {
@@ -1734,16 +1723,13 @@ input:focus {
         line-height: 22px;
         text-align: center
     }
-    .plan_container_left h3,
-    .plan_container_right h3 {
+    .plan_container_left h3, .plan_container_right h3 {
         font-size: 12px
     }
-    .plan_container_left img,
-    .plan_container_right img {
+    .plan_container_left img, .plan_container_right img {
         width: 15px
     }
-    .plan_container_left span,
-    .plan_container_right span {
+    .plan_container_left span, .plan_container_right span {
         font-size: 10px
     }
     .plan_container_left a {
@@ -1754,8 +1740,7 @@ input:focus {
         line-height: unset;
         display: unset
     }
-    .plan_container_left p,
-    .plan_container_right p {
+    .plan_container_left p, .plan_container_right p {
         font-size: 10px;
         margin-top: 15px
     }
@@ -1900,7 +1885,6 @@ input:focus {
 }
 
 @media screen and (max-width:360px) {
-
     .mission_text {
         padding-bottom: 120px
     }
@@ -1910,12 +1894,10 @@ input:focus {
     .choose__box-inner p {
         font-size: 10px
     }
-    .plan_container_left,
-    .plan_container_right {
+    .plan_container_left, .plan_container_right {
         width: 20em
     }
 }
-
 
 /*!
  * Bootstrap Grid v5.0.0-alpha2 (https://getbootstrap.com/)
@@ -1924,72 +1906,62 @@ input:focus {
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
-.container,
-.container-lg,
-.container-md{
+.container, .container-lg, .container-md {
     --bs-gutter-x: 1.5rem;
     width: 100%;
     padding-right: calc(var(--bs-gutter-x)/ 2);
-    padding-left: calc(var(--bs-gutter-x)/ 2); 
+    padding-left: calc(var(--bs-gutter-x)/ 2);
     margin-right: auto;
     margin-left: auto
 }
 
-
 @media (max-width:400px) {
-    .new_banner_video video{
+    .new_banner_video video {
         width: 90%;
         margin-top: 7vh;
     }
 }
 
 @media (max-width:600px) {
-    .new_banner_video video{
+    .new_banner_video video {
         width: 85%;
         margin-top: 7vh;
     }
 }
 
 @media (max-width:769px) {
-    .new_banner_video video{
+    .new_banner_video video {
         width: 77%;
         margin-top: 7vh;
     }
 }
 
 @media (min-width:576px) {
-    .container{
+    .container {
         max-width: 540px
     }
 }
 
 @media (min-width:770px) {
-    .container,
-    .container-md {
+    .container, .container-md {
         max-width: 720px
     }
 }
 
 @media (min-width:992px) {
-    .container,
-    .container-lg,
-    .container-md {
+    .container, .container-lg, .container-md {
         max-width: 960px
     }
 }
 
 @media (min-width:1200px) {
-    .container,
-    .container-lg,
-    .container-md {
+    .container, .container-lg, .container-md {
         max-width: 1140px
     }
 }
 
 @media (min-width:1400px) {
-    .container,
-    .container-lg,
-    .container-md {
+    .container, .container-lg, .container-md {
         max-width: 1320px
     }
 }
@@ -2147,7 +2119,6 @@ input:focus {
         flex: 0 0 auto;
         width: 16.666667%
     }
-    
     .col-md-3 {
         flex: 0 0 auto;
         width: 25%
