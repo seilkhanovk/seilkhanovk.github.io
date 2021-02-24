@@ -13,18 +13,10 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://ritapersonaldata.com/" />
     <meta
-      property="og:image"
-      content="https://ritapersonaldata.com/static/img/referral_card.png"
-    />
-    <meta
       property="og:description"
       content="Rita helps you understand and control your online data and privacy, safely and immediately. Whenever you want."
     />
   
-    <meta
-      property="og:video"
-      content="https://ritapersonaldata.com/static/video/dashboard_mockup.mp4"
-    />
     <meta name="author" content="Rita Team" />
     <meta
       name="keywords"
@@ -77,44 +69,53 @@
               people in line before you
             </h2>
             <div style="display: flex; align-items: center; padding-left: 10%">
-              <input class="copy-link" value="Hello World" id="copy-input">
-              <div style="width: 35px; height: 35px; background-color: #2EBFA5; border-radius: 0 4px 4px 0; cursor: pointer; display: flex; align-items: center; justify-content: center;" onclick="console.log('copy')">
+              <input class="copy-link" id="copy-input">
+              <div style="width: 35px; height: 35px; background-color: #2EBFA5; border-radius: 0 4px 4px 0; cursor: pointer; display: flex; align-items: center; justify-content: center;" onclick="copyFunction()">
                 <img src="./static/img/clipboard.svg">
               </div>
             </div>
             <p>
               Together let's make internet safe!
             </p>
-            
             <div style="margin-right: 18%;">
-              <img src="./static/img/twitter.svg" style="margin-right: 50px;">
-              <img src="./static/img/mail.svg" style="margin-right: 50px;">
-              <img src="./static/img/linkedin.svg">
+              <img id="twitter" src="./static/img/twitter.svg" onclick="twitterRedirect()"; style="margin-right: 50px; cursor: pointer;">
+              <img id="mail" src="./static/img/mail.svg" onclick="mailRedirect();" style="margin-right: 50px; cursor: pointer;">
+              <img id="linkedin" src="./static/img/linkedin.svg" onclick="linkedinRedirect();" style="cursor: pointer;">
             </div>
             <br/>
             <br/>
             <div style="display: flex; align-items: center; justify-content: center; margin-right: 20%;">
               <img src="./static/img/smilingFaceEmoji.svg" style="margin-right: 10px;">
-              <span>1 referred</span>
+              <span id="refCount">0 referred</span>
             </div>
         </div>
         
       </div>  
   
-    <noscript
-      ><iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-WPFL872"
-        height="0"
-        width="0"
-        style="display: none; visibility: hidden"
-      ></iframe
-    ></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+  <!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://ritapersonaldata.matomo.cloud/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src='//cdn.matomo.cloud/ritapersonaldata.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
     <!-- Main js file -->
     <script src="static/js/scriptWaitingList.js "></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript">
   </script>
+
+
+
     <!-- CounterUp.JS -->
     <script src="static/js/count.js" type="module"></script>
   </body>
