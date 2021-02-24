@@ -12,8 +12,8 @@ function sendRequest() {
   const currentURL = window.location.href;
   const res = currentURL.split("=");
   const token = res[res.length - 1];
-  // const globalURL = "https://rita-api.herokuapp.com/";
-  const globalURL = "http://localhost:3000/";
+  const globalURL = "https://rita-api.herokuapp.com/";
+  // const globalURL = "http://localhost:3000/";
   var request = new XMLHttpRequest();
   request.open("GET", globalURL + "potential-users/" + token, true);
   request.send();

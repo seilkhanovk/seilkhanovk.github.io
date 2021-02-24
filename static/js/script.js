@@ -57,8 +57,8 @@ ready(function() {
     const currentURL = window.location.href;
     const res = currentURL.split("=");
 
-    // const globalURL = "https://rita-api.herokuapp.com/";
-    const globalURL = "http://localhost:3000/";
+    const globalURL = "https://rita-api.herokuapp.com/";
+    // const globalURL = "http://localhost:3000/";
     if (res.length > 1) {
       const token = res[res.length - 1];
       var request1 = new XMLHttpRequest();
