@@ -1,4 +1,16 @@
 @charset "UTF-8";
+.section_header {
+    color: #242a4c;
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    display: block;
+    position: relative;
+    padding: 0 .5vw;
+    z-index: 9;
+    transition: width .5s
+}
+
 .post-container {
     margin-bottom: 4rem
 }
@@ -626,6 +638,13 @@ button:focus, img:focus, input:focus {
     background-color: #fffaf5d2
 }
 
+.description_section2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4vh 7vw;
+    background-color: #fffaf5d2
+}
+
 .description_column {
     text-align: center;
     margin: 5vh 3vw;
@@ -1165,6 +1184,16 @@ button:focus, img:focus, input:focus {
     text-align: center;
     padding: 65px 110px;
     background: #f7d6b7;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px
+}
+.subscribe__form2 {
+    text-align: left;
+    padding: 65px 110px;
+    background: #fff8f5;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
@@ -2309,6 +2338,10 @@ button:focus, img:focus, input:focus {
 
 .justify-content-center {
     justify-content: center!important
+}
+
+.justify-content-left {
+    justify-content: right!important
 }
 
 .justify-content-between {
