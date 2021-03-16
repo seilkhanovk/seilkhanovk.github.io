@@ -215,6 +215,7 @@ button:focus, img:focus, input:focus {
     color: #fff
 }
 
+
 .common-content h1 {
     font-size: 48px;
     line-height: 70px;
@@ -1461,7 +1462,7 @@ button:focus, img:focus, input:focus {
         font-size: 18px
     }
     .form_container p {
-        font-size: 14px;
+        font-size: 16px;
         padding: 0 15px
     }
     .button_form {
@@ -1543,8 +1544,8 @@ button:focus, img:focus, input:focus {
         font-size: 18px
     }
     .description_text p {
-        font-size: 14px;
-        text-align: left
+        font-size: 1px;
+        text-align: left;
     }
     .steps_title {
         text-align: center;
