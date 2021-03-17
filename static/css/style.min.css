@@ -6,7 +6,9 @@
     font-weight: 700;
     display: block;
     position: relative;
-    padding: 0 .5vw;
+
+    padding: 0;
+    /* padding: 0 .5vw; */
     z-index: 9;
     transition: width .5s
 }
@@ -47,10 +49,10 @@
     text-decoration: underline dotted
 }
 
-p {
+/* p {
     margin-top: 2rem;
     margin-bottom: 2rem
-}
+} */
 
 h2 {
     margin-top: 4rem
