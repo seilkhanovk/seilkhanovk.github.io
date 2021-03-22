@@ -34,6 +34,34 @@ ready(function() {
     }     
   })
 
+  document.getElementById('apple_store').addEventListener('click', function() {
+    alert("ne naxu");
+  })
+
+  document.getElementById('demo_grid1').style.backgroundColor = "#FFDECB";
+  document.getElementById('demo_grid1').addEventListener('click', function () {
+    document.getElementById('demo_grid1').style.backgroundColor = "#FFDECB";
+    document.getElementById('demo_grid2').style.backgroundColor = "#FFF8F5";
+    document.getElementById('demo_grid3').style.backgroundColor = "#FFF8F5";
+    document.getElementById('control_image').src = "static/img/screen_collect.svg"
+  })
+
+  document.getElementById('demo_grid2').addEventListener('click', function () {
+    document.getElementById('demo_grid2').style.backgroundColor = "#FFDECB";
+    document.getElementById('demo_grid1').style.backgroundColor = "#FFF8F5";
+    document.getElementById('demo_grid3').style.backgroundColor = "#FFF8F5";
+    document.getElementById('control_image').src = "static/img/screen_visualize.svg"
+
+  })
+
+  document.getElementById('demo_grid3').addEventListener('click', function () {
+    document.getElementById('demo_grid3').style.backgroundColor = "#FFDECB";
+    document.getElementById('demo_grid2').style.backgroundColor = "#FFF8F5";
+    document.getElementById('demo_grid1').style.backgroundColor = "#FFF8F5";
+    document.getElementById('control_image').src = "static/img/screen_control.svg"
+
+  })
+
   const checkEmail = (email) => {
     const len = email.length;
     let ok = false;
