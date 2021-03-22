@@ -2981,10 +2981,31 @@ button:focus, img:focus, input:focus {
     .new_banner_text {
         padding: 5px;
     }
-
+    .banner1 {
+        text-align: center;
+        background-color: #FFDECB;
+        order: 1;
+    }
+    .banner1 h1 {
+        font-weight: 700;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .banner1_description{
+        order: 2;
+    }
 }
 
-@media (min-width:375px) {    
+@media (min-width:375px) {  
+    .banner1 h1 {
+        font-weight: 700;
+        font-size: 2.5em;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .banner1 p{
+        font-size: 1.4em;
+    }  
     .description_demo {
         margin-left: 16px;
     }
@@ -3001,6 +3022,15 @@ button:focus, img:focus, input:focus {
 }
 
 @media (min-width:414px) {
+    .banner1 h1 {
+        font-weight: 700;
+        font-size: 2.5em;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .banner1 p{
+        font-size: 1.4em;
+    }
     
     .description_demo {
         margin-left: 20px;
@@ -3018,6 +3048,19 @@ button:focus, img:focus, input:focus {
 }
 
 @media (min-width:768px) {
+
+    .banner1 h1 {
+        font-weight: 700;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .banner1_description{
+        order: 1;
+        margin-top: 12rem;
+    }
+    .new_banner_video {
+        order: 2;
+    }
     .data_point_text h1 {
         font-size: 1.5em;
     }
@@ -3094,6 +3137,21 @@ button:focus, img:focus, input:focus {
 
 
 @media (min-width: 1024px) {
+    .banner1 h1 {
+        font-weight: 700;
+        font-size: 4em;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .banner1 p{
+        font-size: 2em;
+    }
+    .new_banner_video video {
+        height: 60vh;
+    }
+    .banner1 {
+        margin-bottom: 5rem;
+    }
     .new_banner_text h1{
         font-size: 3.5em;
     }
@@ -3128,6 +3186,18 @@ button:focus, img:focus, input:focus {
 }
 
 @media (min-width: 1280px) {
+    .new_banner_video video {
+        height: 90vh;
+    }
+    .banner1_description {
+        margin-top: 8rem;
+    }
+    .banner1 h1 {
+        font-size: 3.5em;
+    }
+    .banner1 p {
+        font-size: 1.5em;
+    }
     .description_img img {
         width: 80%;
     }
