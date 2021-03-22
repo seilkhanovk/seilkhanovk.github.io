@@ -24,15 +24,6 @@ ready(function() {
     closeSidebar.classList.remove('active');
   });
 
-  document.getElementById('emailInputSubmit').addEventListener('click', function () {
-    const email = document.getElementById("emailInputBox").value;
-    const isCorrectEmail = checkEmail(email);
-    if (isCorrectEmail === false) {
-      alert("Please, enter correct email.");
-    } else {
-      sendRequest(email);
-    }     
-  })
 
   document.getElementById('apple_store').addEventListener('click', function() {
     alert("ne naxu");
