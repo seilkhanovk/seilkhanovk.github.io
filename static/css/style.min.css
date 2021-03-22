@@ -2990,6 +2990,12 @@ button:focus, img:focus, input:focus {
         margin-top: -90px;
         margin-left: 65px;
     } 
+    .new_banner_text h1{
+        font-size: 2em;
+    }
+    .new_banner_text p{
+        font-size: 1.2em;
+    }
 }
 
 @media (min-width:414px) {
@@ -3001,6 +3007,12 @@ button:focus, img:focus, input:focus {
         margin-top: -90px;
         margin-left: 80px;
     } 
+    .new_banner_text h1{
+        font-size: 2em;
+    }
+    .new_banner_text p{
+        font-size: 1.4em;
+    }
 }
 
 @media (min-width:768px) {
@@ -3080,6 +3092,12 @@ button:focus, img:focus, input:focus {
 
 
 @media (min-width: 1024px) {
+    .new_banner_text h1{
+        font-size: 3.5em;
+    }
+    .new_banner_text p{
+        font-size: 2em;
+    }
     .description_demo {
         order: 1;
         margin-left: 70px;
