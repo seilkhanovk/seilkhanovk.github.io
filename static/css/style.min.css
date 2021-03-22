@@ -2978,7 +2978,9 @@ button:focus, img:focus, input:focus {
         font-size: 1.5em;
         font-weight: 600;
     }
-
+    .new_banner_text {
+        padding: 5px;
+    }
 
 }
 
