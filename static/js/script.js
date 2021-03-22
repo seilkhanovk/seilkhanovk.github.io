@@ -25,10 +25,6 @@ ready(function() {
   });
 
 
-  document.getElementById('apple_store').addEventListener('click', function() {
-    alert("ne naxu");
-  })
-
   document.getElementById('demo_grid1').style.backgroundColor = "#FFDECB";
   document.getElementById('demo_grid1').addEventListener('click', function () {
     document.getElementById('demo_grid1').style.backgroundColor = "#FFDECB";
