@@ -3252,6 +3252,9 @@ button:focus, img:focus, input:focus {
 
 
 @media (min-width: 1024px) {
+    .footer-section {
+        padding-left: 4.5rem;
+    }
     .footer_android {
         margin-left: -9px;
     }
