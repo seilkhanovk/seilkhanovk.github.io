@@ -3043,6 +3043,43 @@ button:focus, img:focus, input:focus {
         margin-left: 11rem;
         width: 50%;
     }
+    .footer-section {
+        padding: 1rem;
+        background-color: #242C57;
+        color: #FFDECB;
+    }
+    .footer-first {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .footer-second {
+        margin-top: 1rem;
+    }
+    .footer-section a {
+        color: #FFDECB;
+    }
+    .footer_apple {
+        width: 90%;
+    }
+    .footer_android {
+        margin-left: -7px;
+    }
+    .socials {
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+    }
+    .footer-section p {
+        font-size: 12px;
+    }
+    .footer-section h5 {
+        padding-top: 5px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .footer-logo {
+        padding: 20px;
+    }
 }
 
 @media (min-width:375px) {  
@@ -3103,6 +3140,12 @@ button:focus, img:focus, input:focus {
 }
 
 @media (min-width:768px) {
+    .footer-first {
+        margin: 0rem;
+    }
+    .footer-second {
+        margin: 0rem;
+    }
     .social-text {
         text-align: left;
     }
@@ -3209,6 +3252,15 @@ button:focus, img:focus, input:focus {
 
 
 @media (min-width: 1024px) {
+    .footer_android {
+        margin-left: -9px;
+    }
+    .footer-section h5{
+        font-size: 1.3em;
+    }
+    .footer-section p{
+        font-size: 1em;
+    }
     .social-comment2 {
         margin-left: 52.5rem;
         margin-top: -33rem;
