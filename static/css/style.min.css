@@ -2994,9 +2994,61 @@ button:focus, img:focus, input:focus {
     .banner1_description{
         order: 2;
     }
+    .social-section {
+        background-color: #242C57;
+    }
+    .social-text {
+        text-align: center;
+        color: white;
+    }
+    .social-text p {
+        font-size: 16px;
+        padding-top: 20px;
+        font-weight: 400;
+    }
+    .social-text h1 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .see-all-features-button button{
+        color: #03B898;
+        border-color: #03B898;
+        font-size: 16px;
+        font-weight: 500;
+        width: 90%;        
+    }
+    .see-all-features-button { 
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-image img{
+        border-radius: 25px 25px 25px 25px;
+        width: 100%;
+    }
+    .social-comment1 {
+        margin-top: -13rem;
+        margin-left: -2rem;
+        width: 60%;
+    }
+    .social-comment2 {
+        margin-top: -23rem;
+        margin-left: 11rem;
+        width: 50%;
+    }
 }
 
 @media (min-width:375px) {  
+    .social-comment2 {
+        margin-left: 14rem;
+    }
     .banner1 h1 {
         font-weight: 700;
         font-size: 2.5em;
@@ -3022,6 +3074,9 @@ button:focus, img:focus, input:focus {
 }
 
 @media (min-width:414px) {
+    .social-comment2 {
+        margin-left: 15rem;
+    }
     .banner1 h1 {
         font-weight: 700;
         font-size: 2.5em;
@@ -3048,7 +3103,24 @@ button:focus, img:focus, input:focus {
 }
 
 @media (min-width:768px) {
-
+    .social-text {
+        text-align: left;
+    }
+    .see-all-features-button {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .social-description {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .social-comment2 {
+        margin-left: 38.5rem;
+    }
+    .social-comment1 {
+        margin-left: 23rem;
+    }
     .banner1 h1 {
         font-weight: 700;
         margin-top: 1.5rem;
@@ -3137,6 +3209,23 @@ button:focus, img:focus, input:focus {
 
 
 @media (min-width: 1024px) {
+    .social-comment2 {
+        margin-left: 52.5rem;
+        margin-top: -33rem;
+    }
+    .social-comment1 {
+        margin-left: 32rem;
+    }
+    .social-section {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .social-text p {
+        font-size: 18px;
+    }
+    .social-text h1 {
+        font-size: 36px;
+    }
     .banner1 h1 {
         font-weight: 700;
         font-size: 4em;
@@ -3150,7 +3239,7 @@ button:focus, img:focus, input:focus {
         height: 60vh;
     }
     .banner1 {
-        margin-bottom: 5rem;
+        margin-bottom: 0rem;
     }
     .new_banner_text h1{
         font-size: 3.5em;
@@ -3186,6 +3275,22 @@ button:focus, img:focus, input:focus {
 }
 
 @media (min-width: 1280px) {
+    .social-comment2 {
+        margin-left: 60rem;
+    }
+    
+    .social-comment1 {
+        margin-left: 32rem;
+    }
+    .social-section {
+        padding: 5rem;
+    }
+    .social-text p {
+        font-size: 18px;
+    }
+    .social-text h1 {
+        font-size: 36px;
+    }
     .new_banner_video video {
         height: 90vh;
     }
