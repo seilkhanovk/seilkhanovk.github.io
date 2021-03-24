@@ -3255,6 +3255,12 @@ button:focus, img:focus, input:focus {
     .footer_android {
         margin-left: -9px;
     }
+    .footer_android{
+        width: 70%;
+    }
+    .footer_apple{
+        width: 60%;
+    }
     .footer-section h5{
         font-size: 1.3em;
     }
