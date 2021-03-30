@@ -289,7 +289,7 @@ button:focus, img:focus, input:focus {
     width: 100%;
     left: 0;
     top: 0;
-    background: rgb(248, 222, 198);
+    background:#FFDECB; 
     z-index: 999
 }
 
@@ -3025,9 +3025,10 @@ button:focus, img:focus, input:focus {
         align-items: center;
     }
     .social-image {
-        display: flex;
+        background-image: url("/static/img/social_girl.svg");
+        /* display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: center; */
     }
     .social-image img{
         border-radius: 25px 25px 25px 25px;
