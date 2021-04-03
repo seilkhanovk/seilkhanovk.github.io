@@ -3303,8 +3303,8 @@ button:focus, img:focus, input:focus {
         margin-left: 32rem;
     }
     .social-section {
-        padding-top: 5rem;
-        padding-bottom: 5rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
     }
     .social-text p {
         font-size: 18px;
@@ -3369,7 +3369,7 @@ button:focus, img:focus, input:focus {
         margin-left: 32rem;
     }
     .social-section {
-        padding: 5rem;
+        padding: 2rem;
     }
     .social-text p {
         font-size: 18px;
