@@ -3276,6 +3276,7 @@ button:focus, img:focus, input:focus {
     }
     .producthunt{
         padding: 0;
+        margin-bottom: 0; 
     }
     .footer-section {
         padding-left: 4.5rem;
