@@ -136,22 +136,21 @@
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-5 col-lg-6 col-xl-6 banner1_description">
         <h1>It's your data, own it.</h1>
-        <p>Collect, view and control your data. 
-          <span style="color: #03b898"> Smoothly, and in total privacy.</span></p>
-          <div class="banner1_buttons">
-            <a href="https://apps.apple.com/us/app/rita-personal-data/id1538361872" onclick="plausible('iOS Download')">
-              <img src="static/img/app_store.svg" alt="check_icon" id="apple_store">
-            </a>
-            <a href="https://play.google.com/store/apps/details?id=com.ritapersonaldata.rita" onclick="plausible('Android Download');">
-              <img src="static/img/play_market.svg" alt="check_icon" id="play_market">
-            </a>
-            <a href="https://www.producthunt.com/posts/rita-personal-data?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-rita-personal-data" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=288946&theme=light&period=weekly" alt="Rita Personal Data - Collect, view and control your data | Product Hunt" width="240" height="59" class="producthunt"/></a>
+        <p>Collect, view and control your data. <span style="color: #03b898"> Smoothly, and in total privacy.</span></p>
+        <div class="banner1_buttons">
+          <a href="https://apps.apple.com/us/app/rita-personal-data/id1538361872" onclick="plausible('iOS Download')">
+            <img src="static/img/app_store.svg" alt="check_icon" id="apple_store">
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.ritapersonaldata.rita" onclick="plausible('Android Download');">
+            <img src="static/img/play_market.svg" alt="check_icon" id="play_market">
+          </a>
         </div>
+        <a href="https://www.producthunt.com/posts/rita-personal-data?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-rita-personal-data" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=288946&theme=light&period=weekly" alt="Rita Personal Data - Collect, view and control your data | Product Hunt" width="240" height="59" class="producthunt" style="margin-top: 30px"/></a>
       </div>
       <div class="col-xs-12 col-sm-12 col-md-7 col-lg-6 col-xl-6 new_banner_video">
         <video autoplay preload loop muted playsinline width="100%" id="video1">
           <source preload poster="img/dashboard_mockup.png" src="static/video/mobile.mp4" type="video/mp4" />
-      </video>
+        </video>
       </div>
     </div>
   </div>
@@ -165,9 +164,11 @@
           <p style="color:#FFDECB">👋 Welcome To Rita!</p>
           <h1>Take back your data.</h1>
           <p>Get valuable insights into your data and learn how you can get back control of your data.</p>
-          <div class="see-all-features-button">
-            <button type="submit" class="btn">SEE ALL FEATURES</button>
-          </div>
+          <a href="#features">
+            <div class="see-all-features-button">
+              <button type="submit" class="btn">SEE ALL FEATURES</button>
+            </div>
+          </a>
         </div>
       </div>
       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 social-image">
@@ -275,8 +276,8 @@
          <div class="data_point_text">
           <h1>Here are some examples of what you can see in your dashboard </h1>
           <p>See your digital footprint and visualize your data in a simplified and understandable way.</p>
-          <div class="data_points_button">
-            <a class="button">Check more statistics</a>
+          <div class="data_points_button" style="cursor: pointer;">
+            <a class="button" href="#">Try it out</a>
            </div> 
         </div>
          
@@ -298,7 +299,7 @@
             <div class="col-lg-4">
               <div class="numbers">
                 <p>&#8205;</p>
-                <h3>Try it out!</h3>
+                <h3>Test here!</h3>
                 <p>&#8205;</p>
               </div>
             </div>
@@ -361,7 +362,7 @@
         <h6>How can I improve my data safety?</h6>
         <h1>Tools to get your data back in shape</h1>
       </div>
-      <div class="container-fluid feature_container">
+      <div class="container-fluid feature_container" id="features">
         <div class="row feature_1row">
           <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 feature_description" id="stop_emoji">
             <img src="static/img/stop_emoji.svg">
@@ -422,14 +423,14 @@
           it. You are the only one who has access and can choose who can and
           can’t look at it.
         </p>
-        <a href="#" class="link"> Learn More </a>
+        <a href="https://ritapersonaldata.com/faq.html" class="link"> Learn More </a>
 
         <h3>Still not sure?</h3>
         <p>
           If you change your mind you can delete your file from Rita dashboard
           any time. Forever.
         </p>
-        <a href="#" class="link"> Learn More </a>
+        <a href="https://ritapersonaldata.com/faq.html" class="link"> Learn More </a>
       </div>
       <div class="safety_image step-order-two">
         <img src="static/img/safety.png" alt="a girl holding a lock" />
@@ -463,8 +464,8 @@
               </div>
               <div class="col-lg-44">
                 <div class="counter__item">
-                  <h1>576</h1>
-                  <p>Beta Testers</p>
+                  <h1>+12,000</h1>
+                  <p>Users</p>
                 </div>
               </div>
             </div>
