@@ -25,27 +25,48 @@ ready(function() {
   });
 
 
-  document.getElementById('demo_grid1').style.backgroundColor = "#FFDECB";
+  document.getElementById('demo_grid1').style.backgroundColor = "#242C57";
+  document.getElementById('cat-1').style.color = "white";
+  document.getElementById('desc-1').style.color = "white";
   document.getElementById('demo_grid1').addEventListener('click', function () {
-    document.getElementById('demo_grid1').style.backgroundColor = "#FFDECB";
-    document.getElementById('demo_grid2').style.backgroundColor = "#FFF8F5";
-    document.getElementById('demo_grid3').style.backgroundColor = "#FFF8F5";
+    document.getElementById('demo_grid1').style.backgroundColor = "#242C57";
+    document.getElementById('demo_grid2').style.backgroundColor = "#FFFFFF";
+    document.getElementById('demo_grid3').style.backgroundColor = "#FFFFFF";
+      document.getElementById('desc-1').style.color = "#FFFFFF";
+      document.getElementById('cat-1').style.color = "#FFFFFF";
+      document.getElementById('desc-2').style.color = "#242C57";
+      document.getElementById('cat-2').style.color = "#242C57";
+      document.getElementById('desc-3').style.color = "#242C57";
+      document.getElementById('cat-3').style.color = "#242C57";
     document.getElementById('control_image').src = "static/img/screen_collect.svg"
   })
 
   document.getElementById('demo_grid2').addEventListener('click', function () {
-    document.getElementById('demo_grid2').style.backgroundColor = "#FFDECB";
-    document.getElementById('demo_grid1').style.backgroundColor = "#FFF8F5";
-    document.getElementById('demo_grid3').style.backgroundColor = "#FFF8F5";
-    document.getElementById('control_image').src = "static/img/screen_visualize.svg"
+    document.getElementById('demo_grid2').style.backgroundColor = "#242C57";
+    document.getElementById('demo_grid1').style.backgroundColor = "#FFFFFF";
+    document.getElementById('demo_grid3').style.backgroundColor = "#FFFFFF";
+    document.getElementById('desc-2').style.color = "#FFFFFF";
+    document.getElementById('cat-2').style.color = "#FFFFFF";
+    document.getElementById('desc-1').style.color = "#242C57";
+    document.getElementById('cat-1').style.color = "#242C57";
+    document.getElementById('desc-3').style.color = "#242C57";
+    document.getElementById('cat-3').style.color = "#242C57";
 
+    document.getElementById('control_image').src = "static/img/screen_visualize.svg";
   })
 
   document.getElementById('demo_grid3').addEventListener('click', function () {
-    document.getElementById('demo_grid3').style.backgroundColor = "#FFDECB";
-    document.getElementById('demo_grid2').style.backgroundColor = "#FFF8F5";
-    document.getElementById('demo_grid1').style.backgroundColor = "#FFF8F5";
-    document.getElementById('control_image').src = "static/img/screen_control.svg"
+    document.getElementById('demo_grid3').style.backgroundColor = "#242C57";
+    document.getElementById('demo_grid2').style.backgroundColor = "#FFFFFF";
+    document.getElementById('demo_grid1').style.backgroundColor = "#FFFFFF";
+      document.getElementById('desc-3').style.color = "#FFFFFF";
+      document.getElementById('cat-3').style.color = "#FFFFFF";
+      document.getElementById('desc-1').style.color = "#242C57";
+      document.getElementById('cat-1').style.color = "#242C57";
+      document.getElementById('desc-2').style.color = "#242C57";
+      document.getElementById('cat-2').style.color = "#242C57";
+    document.getElementById('control_image').src = "static/img/screen_control.svg";
+
 
   })
 
