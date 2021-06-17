@@ -1244,7 +1244,6 @@ button:focus, img:focus, input:focus {
 .user-say__box-description p {
     color: #7d7e85;
     font-size: 19px;
-    font-style: italic;
     font-weight: 500
 }
 
