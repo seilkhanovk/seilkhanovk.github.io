@@ -154,9 +154,27 @@
             <div class="col-lg-6 col-xl-6 banner1_description">
                 <div class="banner-text">
                     <h1>It's your data, <span class="own-it">own it.<div class="own-line"></div></span></h1>
-                    <p>Collect, view and control your data. <span style="color: #03b898"> Smoothly, and in total privacy.</span>
+                    <p style="margin-top: 50px;">Collect, view and control your data. <span style="color: #03b898"> Smoothly, and in total privacy.</span>
                     </p>
 
+                    <div class="banner1_buttons">
+                        <a href="https://apps.apple.com/us/app/rita-personal-data/id1538361872"
+                           onclick="plausible('iOS Download')"
+                           id="appStoreButton">
+                            <img src="static/img/app-store.PNG" alt="check_icon" id="apple_store">
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.ritapersonaldata.rita"
+                           onclick="plausible('Android Download');"
+                           id="googlePlayButton">
+                            <img src="static/img/play-market.PNG" alt="check_icon" id="play_market">
+                        </a>
+                    </div>
+                    <a href="https://www.producthunt.com/posts/rita-personal-data?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-rita-personal-data"
+                       target="_blank"><img
+                            src="static/img/product-hunt.PNG"
+                            alt="Rita Personal Data - Collect, view and control your data | Product Hunt"
+                            class="producthunt"/></a>
+                    
                     <div class="phone-header m-display">
                         <img src="static/img/screen_collect.svg" class="phone-img" alt="">
                         <div class="phone-header-right">
@@ -179,21 +197,6 @@
                             <img src="static/img/green-circle.png" alt="">
                         </div>
                     </div>
-                    <div class="banner1_buttons">
-                        <a href="https://apps.apple.com/us/app/rita-personal-data/id1538361872"
-                           onclick="plausible('iOS Download')">
-                            <img src="static/img/app-store.PNG" alt="check_icon" id="apple_store">
-                        </a>
-                        <a href="https://play.google.com/store/apps/details?id=com.ritapersonaldata.rita"
-                           onclick="plausible('Android Download');">
-                            <img src="static/img/play-market.PNG" alt="check_icon" id="play_market">
-                        </a>
-                    </div>
-                    <a href="https://www.producthunt.com/posts/rita-personal-data?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-rita-personal-data"
-                       target="_blank"><img
-                            src="static/img/product-hunt.PNG"
-                            alt="Rita Personal Data - Collect, view and control your data | Product Hunt"
-                            class="producthunt"/></a>
 
                 </div>
             </div>
@@ -246,7 +249,7 @@
                                 <div class="user-say__box-image">
                                     <img src="static/img/joshua.png" style="width: 70px; height: 70px;" alt=""/>
                                 </div>
-                                <h4>Joshua</h4>
+                                <h4 style="text-decoration: underline;">Joshua</h4>
                                 <div class="user-say__box-review">
                                     <img src="static/img/stars.png" style="width: 125px; height: 30px;" alt=""/>
                                 </div>
@@ -267,7 +270,7 @@
                                 <div class="user-say__box-image">
                                     <img src="static/img/alberto.png" style="width: 70px; height: 70px;" alt=""/>
                                 </div>
-                                <h4>Alberto</h4>
+                                <h4 style="text-decoration: underline;">Alberto</h4>
                                 <div class="user-say__box-review">
                                     <img src="static/img/stars.png" style="width: 125px; height: 30px;" alt=""/>
                                 </div>
@@ -287,7 +290,7 @@
                                 <div class="user-say__box-image">
                                     <img src="static/img/penny.png" style="width: 70px; height: 70px;"  alt=""/>
                                 </div>
-                                <h4>Penny Penati</h4>
+                                <h4 style="text-decoration: underline;">Penny Penati</h4>
                                 <div class="user-say__box-review">
                                     <img src="static/img/starshalf.png" style="width: 125px; height: 30px;" alt=""/>
                                 </div>
@@ -305,7 +308,7 @@
                                 <div class="user-say__box-image">
                                     <img src="static/img/mehdi.png" style="width: 70px; height: 70px;"  alt=""/>
                                 </div>
-                                <h4>Mehdi</h4>
+                                <h4 style="text-decoration: underline;">Mehdi</h4>
                                 <div class="user-say__box-review">
                                     <img src="static/img/starshalf.png" style="width: 125px; height: 30px;" alt=""/>
                                 </div>
@@ -550,7 +553,7 @@
         </div>
         <div class="process-wrap d-display">
             <div class="white-phone-img">
-                <div style="height: 700px">
+                <div style="height: 750px">
                     <img src="static/img/rita-app.gif" style="margin-top: -25px; margin-left: -30px;">
                 </div>
                 
@@ -572,9 +575,8 @@
                 </div>
             </div>
         </div>
-        <div class="process-wrap m-display">
-            <img src="static/img/rita-app.gif">
-            <div class="white-phone-img">
+        <div class="process-wrap m-display" style="margin-top: -60px;">
+            <div class="white-phone-img" style="margin-bottom: 30px;">
                 <div class="text-center new-abs-right" style="margin-top: 50px">
                     <div class="new-svg">
                         <img src="static/img/tick.svg" alt="">
@@ -592,6 +594,7 @@
                     </div>
                 </div>
             </div>
+            <img src="static/img/rita-app.gif" style="margin-bottom: 50px; width: 80%">
         </div>
     </section>
 </div>
@@ -615,7 +618,10 @@
                         who
                         has access and can choose who can and can’t look at it.
                     </p>
-                    <a href="faq.html">LEARN MORE</a>
+                    
+                    <div class="" style="cursor: pointer;">
+                        <a class="try-btn" href="faq.html" style="color: white !important; font-size: 16px; font-weight: 400;">Learn More</a>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-6">
@@ -762,6 +768,15 @@
     </div>
 </div>
 
+<script>
+    var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+    if (/android/i.test(userAgent)) {
+        document.getElementById('appStoreButton').style.display = 'none';
+    } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+        document.getElementById('googlePlayButton').style.display = 'none';
+    }
+</script>
 
 <script>
     jQuery(".owl-carousel").owlCarousel({
