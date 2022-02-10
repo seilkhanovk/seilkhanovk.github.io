@@ -3990,7 +3990,6 @@ button:focus, img:focus, input:focus {
     text-align: left;
     margin-bottom: 10px;
 }
-
 @media screen and (min-width:768px){
     .demo_grid {
         min-height: 105px;
