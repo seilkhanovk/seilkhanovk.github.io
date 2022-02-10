@@ -19,6 +19,14 @@
     background-color: #FFF8F5;
     border: none;
 }
+.survey_grid {
+    text-align: center;
+    cursor: pointer;
+    width: 75%;
+    background-color: #FFF8F5;
+    border: none;
+}
+
 
 .demo_numbers {
     color: #03B898;
@@ -3188,6 +3196,11 @@ button:focus, img:focus, input:focus {
         margin-right: 3rem !important;
         margin-left: 1.5rem !important;
     }
+    .survey_grid {
+        margin-right: 3rem !important;
+        margin-left: 3rem !important;
+    }
+    
 
     .description_demo {
         order: 1;
@@ -3596,6 +3609,12 @@ button:focus, img:focus, input:focus {
         margin-left: 6rem !important;
     }
 
+    .survey_grid {
+        margin-right: 3rem !important;
+        margin-left: 4rem !important;
+    }
+
+
     .feature_demo {
         order: 2;
         margin-bottom: 0px;
@@ -3962,8 +3981,21 @@ button:focus, img:focus, input:focus {
     text-align: left;
     margin-bottom: 10px;
 }
+.survey_grid{
+    background: white ;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .18), 0 2px 6px rgba(0, 0, 0, .12), 0 0 1px rgba(0, 0, 0, .04);
+    border-radius: 10px;
+    transition: all 0.5s;
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
 @media screen and (min-width:768px){
     .demo_grid {
+        min-height: 105px;
+    }
+    .survey_grid {
         min-height: 105px;
     }
 }
@@ -4025,6 +4057,16 @@ button:focus, img:focus, input:focus {
     border: none;
     box-shadow: 0 10px 20px rgba(26, 11, 92, .18), 0 2px 6px rgba(26, 11, 92, .12), 0 0 1px rgba(0, 0, 0, .04)
 }
+.download-btn{
+    background: #000000;
+    margin-top: 100px;
+    padding: 18px 50px;
+    color: white !important;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 0 10px 20px rgba(26, 11, 92, .18), 0 2px 6px rgba(26, 11, 92, .12), 0 0 1px rgba(0, 0, 0, .04)
+}
+
 .data-text{
     text-align: left;
     margin-left: 50px;
@@ -4070,6 +4112,12 @@ footer h5{
         margin-left: 0 !important;
         overflow: hidden;
     }
+    .survey_grid {
+        width: 100%;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        overflow: hidden;
+    }
     .description_demo {
         margin-top: 20px;
         margin-left: 0;
@@ -4080,6 +4128,11 @@ footer h5{
         transition: all 0.5s; */
     }
     .demo_grid:focus .demo_description {
+        /*display: block;*/
+        max-height: 200px;
+        opacity: 1;
+    }
+    .survey_grid:focus .demo_description {
         /*display: block;*/
         max-height: 200px;
         opacity: 1;
@@ -4439,7 +4492,8 @@ footer h5{
     left: -180px;
     bottom: 140px;
 }
-.phone-img{
+.laptop-img{
+    width: 100%;
     height: 600px;
 }
 .green-circle{
@@ -4754,9 +4808,9 @@ footer h5{
     #encrypted p {
         margin-top: 70px;
     }
-    .phone-img{
+    .laptop-img{
         height: 300px;
-        margin-left: 25px;
+        margin-left: 5px;
     }
     .phone-header{
         width: fit-content;
