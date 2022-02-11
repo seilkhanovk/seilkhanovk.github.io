@@ -813,19 +813,13 @@
                
              <div class="modal-body" style="margin-top: 10p;">
 
-                <!-- <form class="form-inline align-items-center">
-                    <div class="form-group mx-sm-3 mb-2 align-items-center">
-                      <input type="email" class="form-control" id="inputPassword2" placeholder="Enter Email">
-                    </div>
-                    <button type="submit" style="background-color:#03b898; border-color: #03b898;" class="btn btn-primary mb-2">Confirm</button>
-                  </form>             -->
                   <form>
                     <div class="row">
                       <div class="col">
-                        <input type="text" class="form-control" placeholder="Enter Email">
+                        <input type="text" class="form-control" id="userEmail" placeholder="Enter Email">
                       </div>
                       <div class="col-auto">
-                        <button type="submit" style="background-color:#03b898; border-color: #03b898;" class="btn btn-primary mb-2">Confirm</button>
+                        <button type="submit" style="background-color:#03b898; border-color: #03b898;" class="btn btn-primary mb-2" data-dismiss="modal" onclick="saveUserEmail()">Confirm</button>
                     </div>
                     </div>
                 </form>
@@ -837,8 +831,15 @@
 
 
 <script>
-    function sendAnswer(browserName) {
-        console.log(browserName);
+    function saveUserEmail() {
+        const email = document.getElementById("userEmail").value;
+
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "https://rita-api.herokuapp.com/waiting-list-users/", true);
+        xhr.setRequestHeader('Content-Type', 'application/json');
+        xhr.send(JSON.stringify({
+            email: email
+        }));
     }
 </script>
 
