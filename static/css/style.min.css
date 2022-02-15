@@ -4582,7 +4582,7 @@ footer h5{
 .white-phone-img{
     width: 400px;
     margin: auto;
-    margin-top: 85px;
+    margin-top: 130px;
     padding-left: 50px;
     position: relative;
     z-index: 2;
@@ -4692,12 +4692,12 @@ footer h5{
 
 .new-abs-left {
     position: absolute;
-    left: -325px;
+    left: -420px;
     top: -100px;
 }
 .new-abs-right{
     position: absolute;
-    right: -365px;
+    right: -460px;
     top: -100px;
 }
 
